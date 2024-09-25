@@ -25,20 +25,34 @@ const data = {
 const tool = {
   scale_x: d3.scaleLinear().range([data.margin.left, data.width - data.margin.right]).domain([1, data.len_max]),
   scale_y: d3.scaleLinear().range([data.margin.top, data.height - data.margin.bottom]).domain([1, data.chr_max]),
-  scale_z_lin: d3.scaleLinear().range([1, 10]).domain(d3.extent(data.genes, d => d.len)),
-  scale_z_log: d3.scaleLog().range([1, 10]).domain(d3.extent(data.genes, d => d.len)),
+  scale_z: {
+    linear: d3.scaleLinear().range([1, 10]).domain(d3.extent(data.genes, d => d.len)),
+    log: d3.scaleLog().range([1, 10]).domain(d3.extent(data.genes, d => d.len)),
+    clinvar: d3.scaleLinear().range([1, 20]).domain(d3.extent(data.genes, d => d.clinvar)),
+    disease: d3.scaleLinear().range([1, 20]).domain(d3.extent(data.genes, d => d.disease)),
+    ppi: d3.scaleLinear().range([1, 20]).domain(d3.extent(data.genes, d => d.ppi)),
+    paralog: d3.scaleLinear().range([1, 10]).domain(d3.extent(data.genes, d => d.paralog)),
+    homolog: d3.scaleLinear().range([1, 8]).domain(d3.extent(data.genes, d => d.homolog))
+  },
   palette: d3.scaleOrdinal(d3.schemeTableau10)
 }
-tool.scale_z = tool.scale_z_lin
+//tool.scale_z = tool.scale_z_lin
 
 const svg = d3.select("svg#canvas")
   .attr("width", data.width)
   .attr("height", data.height)
 
 svg.append("g")
+/*
   .attr("toggle_color", "strand")
   .attr("toggle_size", "length")
   .attr("toggle_scale", "linear")
+*/
+  .attr("toggle_clinvar", "default")
+  .attr("toggle_disease", "default")
+  .attr("toggle_ppi", "default")
+  .attr("toggle_homolog", "default")
+  .attr("toggle_paralog", "default")
   .selectAll("circle")
   .data(data.genes)
   .join("circle")
@@ -47,13 +61,28 @@ svg.append("g")
   .classed("reverse", d => d.str < 0)
   .attr("cx", d => tool.scale_x(d.pos))
   .attr("cy", d => tool.scale_y(d.chr_sort))
-  .attr("r", d => tool.scale_z(d.len))
-  .style("fill", d => tool.palette(d.str))
+  .attr("r", d => tool.scale_z.linear(d.len))
+  .style("fill", d => tool.palette(d.band))
   .on("mouseover", d => infobox(d.target.__data__))
+  .on("click", d => console.log(d.target.__data__))
 
+/*
 d3.select("#toggle_color").on("click", toggle_color)
 d3.select("#toggle_size").on("click", toggle_size)
 d3.select("#toggle_scale").on("click", toggle_scale)
+*/
+/*
+d3.select("#toggle_clinvar").on("click", toggle("clinvar"))
+d3.select("#toggle_disease").on("click", toggle("disease"))
+d3.select("#toggle_ppi").on("click", toggle("ppi"))
+d3.select("#toggle_homolog").on("click", toggle("homolog"))
+d3.select("#toggle_paralog").on("click", toggle("paralog"))
+*/
+d3.select("#toggle_clinvar").on("click", toggle_clinvar)
+d3.select("#toggle_disease").on("click", toggle_disease)
+d3.select("#toggle_ppi").on("click", toggle_ppi)
+d3.select("#toggle_homolog").on("click", toggle_homolog)
+d3.select("#toggle_paralog").on("click", toggle_paralog)
 
 d3.select("#infobox_hgnc").on("click", d => window.open("http://identifiers.org/" + d.target.parentNode.attributes["hgnc_id"].nodeValue, '_blank'))
 d3.select("#infobox_ensg").on("click", d => window.open("http://identifiers.org/ensembl/" + d.target.textContent, "_blank"))
@@ -89,6 +118,75 @@ function infobox(d) {
   d3.select("#info_up").text(d.up)
 }
 
+function toggle_clinvar() {
+  toggle("clinvar")
+}
+function toggle_disease() {
+  toggle("disease")
+}
+function toggle_ppi() {
+  toggle("ppi")
+}
+function toggle_homolog() {
+  toggle("homolog")
+}
+function toggle_paralog() {
+  toggle("paralog")
+}
+
+function toggle(attr) {
+  let graphic = d3.select("svg#canvas").select("g")
+  switch ( graphic.attr("toggle_" + attr) ) {
+    case "activated":
+      toggle_default(attr)
+      break
+    default:
+      toggle_activate(attr)
+  }
+}
+
+function toggle_default(attr) {
+  let graphic = d3.select("svg#canvas").select("g")
+  let circles = d3.selectAll("circle")
+  circles.attr("r", d => tool.scale_z.linear(d.len))
+  circles.style("fill", d => tool.palette(d.band))
+  circles.style("opacity", 1)
+  graphic.attr("toggle_" + attr, "default")
+}
+
+function toggle_activate(attr) {
+  let graphic = d3.select("svg#canvas").select("g")
+  let circles = d3.selectAll("circle")
+  let scale_z = tool.scale_z[attr]
+  circles.attr("r", d => scale_z(d[attr]))
+  if (attr == "clinvar") {
+    circles.style("fill", d => d.pathogenic ? "#d1605e" : "#5878a3")
+  }
+  circles.style("opacity", 0.7)
+  graphic.attr("toggle_" + attr, "activated")
+}
+
+/*
+function toggle_clinvar() {
+  let graphic = d3.select("svg#canvas").select("g")
+  let circles = d3.selectAll("circle")
+  switch ( graphic.attr("toggle_clinvar") ) {
+    case "length":
+      circles.attr("r", d => tool.scale_z.clinvar(d.clinvar))
+      circles.style("opacity", 0.9)
+      graphic.attr("toggle_clinvar", "clinvar")
+      break
+    case "clinvar":
+      circles.attr("r", d => tool.scale_z.linear(d.len))
+      circles.style("fill", d => tool.palette(d.band))
+      circles.style("opacity", 1)
+      graphic.attr("toggle_clinvar", "length")
+      break
+  }
+}
+*/
+
+/*
 function toggle_color() {
   let graphic = d3.select("svg#canvas").select("g")
   let circles = d3.selectAll("circle")
@@ -139,6 +237,7 @@ function toggle_scale() {
       break
   }
 }
+*/
 </script>
 
 <style>
@@ -205,9 +304,16 @@ body {
 	<button class="btn btn-secondary" type="button" id="infobox_up">
           <span class="" id="info_up">UniProt</span>
 	</button>
+<!--
 	<button class="btn btn-warning" type="button" id="toggle_color">Color by strand/band</button>
 	<button class="btn btn-success" type="button" id="toggle_size">Size by length/const</button>
 	<button class="btn btn-primary" type="button" id="toggle_scale">Scale by linear/log</button>
+-->
+	<button class="btn btn-warning" type="button" id="toggle_clinvar">ClinVar</button>
+	<button class="btn btn-danger"  type="button" id="toggle_disease">Disease</button>
+	<button class="btn btn-success" type="button" id="toggle_ppi">PPI</button>
+	<button class="btn btn-info"    type="button" id="toggle_paralog">Paralog</button>
+	<button class="btn btn-primary" type="button" id="toggle_homolog">Homolog</button>
       </span>
       <svg id="canvas"></svg>
     </div>
