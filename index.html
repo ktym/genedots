@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>genedots.</title>
+    <!-- https://getbootstrap.jp/docs/5.0/getting-started/introduction/ -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- https://d3js.org/getting-started -->
+<script type="module">
+import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+const data = {
+  genes: await d3.json("./genedots.json"),
+  len_max: 250000000,
+  chr_max: 30,
+  width: 2000,
+  height: 1000,
+  margin: { left: 20, right: 20, top: 20, bottom: 20 }
+}
+
+const tool = {
+  scale_x: d3.scaleLinear().range([data.margin.left, data.width - data.margin.right]).domain([1, data.len_max]),
+  scale_y: d3.scaleLinear().range([data.margin.top, data.height - data.margin.bottom]).domain([1, data.chr_max]),
+  scale_z_lin: d3.scaleLinear().range([1, 10]).domain(d3.extent(data.genes, d => d.len)),
+  scale_z_log: d3.scaleLog().range([1, 10]).domain(d3.extent(data.genes, d => d.len)),
+  palette: d3.scaleOrdinal(d3.schemeTableau10)
+}
+tool.scale_z = tool.scale_z_lin
+
+const svg = d3.select("svg#canvas")
+  .attr("width", data.width)
+  .attr("height", data.height)
+
+svg.append("g")
+  .attr("toggle_color", "strand")
+  .attr("toggle_size", "length")
+  .attr("toggle_scale", "linear")
+  .selectAll("circle")
+  .data(data.genes)
+  .join("circle")
+  .attr("class", d => d.hgnc)
+  .classed("forward", d => d.str > 0)
+  .classed("reverse", d => d.str < 0)
+  .attr("cx", d => tool.scale_x(d.pos))
+  .attr("cy", d => tool.scale_y(d.chr_sort))
+  .attr("r", d => tool.scale_z(d.len))
+  .style("fill", d => tool.palette(d.str))
+  .on("mouseover", d => infobox(d.target.__data__))
+
+d3.select("#toggle_color").on("click", toggle_color)
+d3.select("#toggle_size").on("click", toggle_size)
+d3.select("#toggle_scale").on("click", toggle_scale)
+
+d3.select("#infobox_hgnc").on("click", d => window.open("http://identifiers.org/" + d.target.parentNode.attributes["hgnc_id"].nodeValue, '_blank'))
+d3.select("#infobox_ensg").on("click", d => window.open("http://identifiers.org/ensembl/" + d.target.textContent, "_blank"))
+d3.select("#infobox_up").on("click", d => window.open("http://identifiers.org/uniprot/" + d.target.textContent, "_blank"))
+
+d3.select("#search_hgnc").on("input", search_hgnc)
+
+function search_hgnc() {
+  let hgnc = d3.select("#search_hgnc").property("value");
+  if (hgnc.length >= 2) {
+    console.log(hgnc)
+    d3.selectAll("circle")
+      .filter(function() {
+        return ! d3.select(this).classed("highlight")
+      })
+      .style("opacity", 0.3)
+      .filter(function() {
+        return d3.select(this).classed(hgnc)
+      })
+      .style("opacity", 1)
+      .classed("highlight", true)
+  }
+}
+
+function infobox(d) {
+  d3.select("#infobox_hgnc").attr("hgnc_id", d.hgnc_id)
+  d3.select("#info_gene").text(d.hgnc)
+  d3.select("#info_hgnc").text(d.hgnc_id)
+  d3.select("#info_chr").text(d.chr)
+  d3.select("#info_pos").text(d.pos)
+  d3.select("#info_len").text(d.len)
+  d3.select("#info_ensg").text(d.ensg)
+  d3.select("#info_up").text(d.up)
+}
+
+function toggle_color() {
+  let graphic = d3.select("svg#canvas").select("g")
+  let circles = d3.selectAll("circle")
+  switch ( graphic.attr("toggle_color") ) {
+    case "strand":
+      circles.style("fill", d => tool.palette(d.band))
+      graphic.attr("toggle_color", "band")
+      break
+    case "band":
+      circles.style("fill", d => tool.palette(d.str))
+      graphic.attr("toggle_color", "strand")
+      break
+  }
+}
+
+function toggle_size() {
+  let graphic = d3.select("svg#canvas").select("g")
+  let circles = d3.selectAll("circle")
+  switch ( graphic.attr("toggle_size") ) {
+    case "length":
+      circles.attr("r", 5)
+      circles.style("opacity", 0.7)
+      graphic.attr("toggle_size", "const")
+      break
+    case "const":
+      circles.attr("r", d => tool.scale_z(d.len))
+      circles.style("opacity", 1)
+      graphic.attr("toggle_size", "length")
+      break
+  }
+}
+
+function toggle_scale() {
+  let graphic = d3.select("svg#canvas").select("g")
+  let circles = d3.selectAll("circle")
+  switch ( graphic.attr("toggle_scale") ) {
+    case "linear":
+      tool.scale_z = tool.scale_z_log
+      circles.attr("r", d => tool.scale_z(d.len))
+      circles.style("opacity", 0.7)
+      graphic.attr("toggle_scale", "log")
+      break
+    case "log":
+      tool.scale_z = tool.scale_z_lin
+      circles.attr("r", d => tool.scale_z(d.len))
+      circles.style("opacity", 1)
+      graphic.attr("toggle_scale", "linear")
+      break
+  }
+}
+</script>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+body {
+  font-family: 'Ubuntu Mono', monospace;
+}
+.highlight {
+  stroke: black;
+  stroke-opacity: 1;
+  stroke-width: 10px;
+  stroke-dasharray: 1;
+}
+.forward {
+  transform: translateY(-5px);
+}
+.reverse {
+  transform: translateY(5px);
+}
+
+/*
+.forward {
+  animation: forward 3s linear;
+}
+.reverse {
+  animation: reverse 3s linear;
+}
+@keyframes forward {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
+@keyframes reverse {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(5px);
+  }
+}
+*/
+</style>
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>genedots.</h1>
+      <span class="input-group mb-3">
+	<button class="btn btn-secondary" type="button" id="infobox_hgnc">
+          <span class="" id="info_gene">Gene</span>
+<!--
+          <span class="" id="info_hgnc">ID</span>
+-->
+          <span class="" id="info_chr">Chr</span>:<span class="" id="info_pos">Pos</span>
+          (<span class="" id="info_len">Len</span> bp)
+        </button>
+        <input type="text" class="form-control" id="search_hgnc" placeholder="HGNC" aria-label="HGNC" aria-describedby="basic-addon1">
+	<button class="btn btn-secondary" type="button" id="infobox_ensg">
+          <span class="" id="info_ensg">Ensembl</span>
+	</button>
+	<button class="btn btn-secondary" type="button" id="infobox_up">
+          <span class="" id="info_up">UniProt</span>
+	</button>
+	<button class="btn btn-warning" type="button" id="toggle_color">Color by strand/band</button>
+	<button class="btn btn-success" type="button" id="toggle_size">Size by length/const</button>
+	<button class="btn btn-primary" type="button" id="toggle_scale">Scale by linear/log</button>
+      </span>
+      <svg id="canvas"></svg>
+    </div>
+  </body>
+</html>
