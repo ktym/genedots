@@ -1,0 +1,36 @@
+English	日本語
+Adipose	脂肪組織
+Adrenal gland	副腎
+Artery/Aorta	動脈/大動脈
+Bone marrow	骨髄
+Brain stem	脳幹
+Breast	乳房
+Cerebellum	小脳
+Cerebrum	大脳
+Colon	結腸
+Corpus callosum/Glia	脳梁/グリア
+Esophagus	食道
+Heart	心臓
+Intestine	腸
+Kidney	腎臓
+Liver/Hepato	肝臓
+Low specificity	低特異性
+Lung	肺
+Lymphnode	リンパ節
+Muscle	筋肉
+Ovary	卵巣
+Pancreas	膵臓
+Peripheral nerve	末梢神経
+Pituitary	下垂体
+Placenta	胎盤
+Prostate	前立腺
+Salivary	唾液腺
+Skin	皮膚
+Spine	脊椎
+Spleen	脾臓
+Stomach	胃
+Testis	精巣
+Thymus	胸腺
+Thyroid/Parathyroid	甲状腺/副甲状腺
+Uterus	子宮
+Vein	静脈

@@ -1,0 +1,38 @@
+English	日本語
+Adipose tissue	脂肪組織
+Adrenal gland	副腎
+Blood	血液
+Bone marrow	骨髄
+Brain	脳
+Breast	乳房
+Endometrium	子宮内膜
+Epididymis	精巣上体
+Esophagus	食道
+Gall bladder	胆嚢
+Heart muscle tissue	心筋組織
+Intestine	腸
+Kidney	腎臓
+Liver	肝臓
+Lung	肺
+Lymphoid tissue	リンパ組織
+Ovary	卵巣
+Oviduct	卵管
+Pancreas	膵臓
+Parathyroid	副甲状腺
+Pituitary gland	下垂体
+Placenta	胎盤
+Prostate	前立腺
+Retina	網膜
+Salivary gland	唾液腺
+Seminal vesicle	精嚢
+Skeletal muscle organ	骨格筋器官
+Skin	皮膚
+Smooth muscle tissue	平滑筋組織
+Stomach	胃
+Testis	精巣
+Thyroid	甲状腺
+Tongue	舌
+Urinary bladder	膀胱
+Uterine cervix	子宮頸部
+Vagina	膣
+Vas deferens	精管

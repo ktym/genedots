@@ -1,0 +1,485 @@
+English                     	日本語
+Abdominal adipose tissue    	腹部脂肪組織
+Adipocyte                   	脂肪細胞
+Adipose tissue              	脂肪組織
+Adrenal cortex              	副腎皮質
+Adrenal gland               	副腎
+Adrenal medulla             	副腎髄質
+Adrenal tumor               	副腎腫瘍
+Airway epithelium           	気道上皮
+Alveolar macrophage         	肺胞マクロファージ
+Amnion                      	羊膜
+Amniotic fluid              	羊水
+Amygdala                    	扁桃体
+Aorta                       	大動脈
+Aortic endothelium          	大動脈内皮
+Aortic smooth muscle        	大動脈平滑筋
+Artery                      	動脈
+Artery smooth muscle        	動脈平滑筋
+Articular cartilage         	関節軟骨
+Articular chondrocyte       	関節軟骨細胞
+Ascites                     	腹水
+Astrocyte                   	星状細胞
+Astrocytoma                 	星状細胞腫
+B-cell                      	B細胞
+B-cell lymphoma             	B細胞リンパ腫
+Bile                        	胆汁
+Blastocyst                  	胚盤胞
+Blood                       	血液
+Blood vessel                	血管
+Bone                        	骨
+Bone marrow                 	骨髄
+Bone marrow stroma          	骨髄間質
+Bone marrow tumor           	骨髄腫瘍
+Brain                       	脳
+Brain capillary             	脳毛細血管
+Brain cortex                	脳皮質
+Brain endothelium           	脳内皮
+Brain stem                  	脳幹
+Brain tumor                 	脳腫瘍
+Bronchiolar epithelial cell 	細気管支上皮細胞
+Bronchus                    	気管支
+Brown adipose tissue        	褐色脂肪組織
+CNS                         	中枢神経系
+Cajal-Retzius cell          	カハール・レチウス細胞
+Cancellous bone             	海綿骨
+Capillary endothelium       	毛細血管内皮
+Carcinoma                   	癌
+Cardiac myocyte             	心筋細胞
+Cartilage                   	軟骨
+Caudate nucleus             	尾状核
+Cementoblast                	セメント芽細胞
+Cerebellum                  	小脳
+Cerebrospinal fluid         	脳脊髄液
+Cervix                      	子宮頸部
+Cervix adenocarcinoma       	子宮頸部腺癌
+Cervix carcinoma            	子宮頸部癌
+Cervix epithelium           	子宮頸部上皮
+Chondrocyte                 	軟骨細胞
+Chondrosarcoma              	軟骨肉腫
+Chorioamniotic membrane     	絨毛膜羊膜
+Choriocarcinoma             	絨毛癌
+Chronic myeloid leukemia cell	慢性骨髄性白血病細胞
+Cochlea                     	蝸牛
+Colon                       	結腸
+Colon adenocarcinoma        	結腸腺癌
+Colon cancer                	結腸がん
+Colon carcinoma             	結腸癌
+Colon endothelium           	結腸内皮
+Colon epithelium            	結腸上皮
+Colon mucosa                	結腸粘膜
+Colon smooth muscle         	結腸平滑筋
+Colon tumor                 	結腸腫瘍
+Cornea                      	角膜
+Corneal endothelium         	角膜内皮
+Corneal epithelium          	角膜上皮
+Corneal fibroblast          	角膜線維芽細胞
+Coronary arterial endothelium	冠動脈内皮
+Coronary artery             	冠動脈
+Corpus callosum             	脳梁
+Corpus striatum             	線条体
+Craniofacial                	頭蓋顔面
+Cytotoxic T-cell            	細胞傷害性T細胞
+Decidua                     	脱落膜
+Dendritic cell              	樹状細胞
+Dental pulp                 	歯髄
+Dermoid cancer              	皮様癌
+Duodenal adenocarcinoma     	十二指腸腺癌
+Duodenal mucosa             	十二指腸粘膜
+Duodenum                    	十二指腸
+Ectomesenchyme              	外胚葉間葉
+Embryo                      	胚
+Embryonic brain             	胚性脳
+Embryonic carcinoma         	胚性癌
+Embryonic fibroblast        	胚性線維芽細胞
+Embryonic head              	胚性頭部
+Embryonic heart             	胚性心臓
+Embryonic kidney            	胚性腎臓
+Embryonic liver             	胚性肝臓
+Embryonic lung              	胚性肺
+Embryonic lung fibroblast   	胚性肺線維芽細胞
+Embryonic rhabdomyosarcoma  	胚性横紋筋肉腫
+Embryonic spinal cord       	胚性脊髄
+Embryonic stem cell         	胚性幹細胞
+Embryonic testis            	胚性精巣
+Embryonic testis carcinoma  	胚性精巣癌
+Endometrial adenocarcinoma  	子宮内膜腺癌
+Endometrial cancer          	子宮内膜がん
+Endometrial tumor           	子宮内膜腫瘍
+Endometrium                 	子宮内膜
+Endothelial cell            	内皮細胞
+Eosinophil                  	好酸球
+Epidermal carcinoma         	表皮癌
+Epidermis                   	表皮
+Epididymis                  	精巣上体
+Epithelium                  	上皮
+Erythroblast                	赤芽球
+Erythrocyte                 	赤血球
+Erythroid cell              	赤血球系細胞
+Erythroleukemia             	赤血球白血病
+Esophageal carcinoma        	食道癌
+Esophagus                   	食道
+Ewing sarcoma               	ユーイング肉腫
+Extraocular muscle          	外眼筋
+Eye                         	目
+Femoral artery              	大腿動脈
+Femur                       	大腿骨
+Fetal B-cell                	胎児B細胞
+Fetal adrenal gland         	胎児副腎
+Fetal astrocyte             	胎児星状細胞
+Fetal blood                 	胎児血液
+Fetal brain                 	胎児脳
+Fetal brain cortex          	胎児脳皮質
+Fetal cartilage             	胎児軟骨
+Fetal colon                 	胎児結腸
+Fetal esophagus             	胎児食道
+Fetal eye                   	胎児目
+Fetal fibroblast            	胎児線維芽細胞
+Fetal heart                 	胎児心臓
+Fetal kidney                	胎児腎臓
+Fetal liver                 	胎児肝臓
+Fetal lung                  	胎児肺
+Fetal lung fibroblast       	胎児肺線維芽細胞
+Fetal muscle                	胎児筋肉
+Fetal pancreas              	胎児膵臓
+Fetal retina                	胎児網膜
+Fetal skeletal muscle       	胎児骨格筋
+Fetal skin                  	胎児皮膚
+Fetal spinal cord           	胎児脊髄
+Fetal spleen                	胎児脾臓
+Fetal sternum               	胎児胸骨
+Fetal testis                	胎児精巣
+Fetal thymus                	胎児胸腺
+Fetus                       	胎児
+Fibroblast                  	線維芽細胞
+Fibrosarcoma                	線維肉腫
+Follicular cell             	濾胞細胞
+Foot sole tissue            	足底組織
+Forebrain                   	前脳
+Forebrain cortex            	前脳皮質
+Foreskin                    	包皮
+Foreskin fibroblast         	包皮線維芽細胞
+Foreskin keratinocyte       	包皮ケラチノサイト
+Frontal cortex              	前頭皮質
+Gall bladder                	胆嚢
+Gastric adenocarcinoma      	胃腺癌
+Gastric antrum              	胃前庭
+Gastric carcinoma           	胃癌
+Gastric fundus              	胃底
+Gastric mucosa              	胃粘膜
+Gastric parietal cell       	胃壁細胞
+Germ cell                   	生殖細胞
+Glial cell                  	神経膠細胞
+Glial tumor                 	神経膠腫瘍
+Glioblastoma                	神経膠芽腫
+Granulocyte                 	顆粒球
+Hair                        	髪
+Hair follicle               	毛包
+Hair follicle dermal papilla	毛包真皮乳頭
+Hair root                   	毛根
+Head                        	頭
+Heart                       	心臓
+Heart atrium                	心房
+Heart left ventricle        	左心室
+Heart muscle                	心筋
+Heart ventricle             	心室
+Hemangioendothelioma        	血管内皮腫
+Hematopoietic               	造血
+Hematopoietic stem cell     	造血幹細胞
+Hepatic stellate cell       	肝星状細胞
+Hepatoblastoma              	肝芽腫
+Hepatocyte                  	肝細胞
+Hepatoma                    	肝癌
+Hindbrain                   	後脳
+Hippocampus                 	海馬
+Histiocytic lymphoma        	組織球性リンパ腫
+Hypothalamus                	視床下部
+Ileal mucosa                	回腸粘膜
+Ileum                       	回腸
+Inner ear                   	内耳
+Insulinoma                  	インスリノーマ
+Intestinal epithelium       	腸上皮
+Intestinal smooth muscle    	腸平滑筋
+Intestine                   	腸
+Iris                        	虹彩
+Jejunal smooth muscle       	空腸平滑筋
+Jejunum                     	空腸
+Keratinocyte                	ケラチノサイト
+Kidney                      	腎臓
+Kidney adenocarcinoma       	腎腺癌
+Kidney cortex               	腎皮質
+Kidney epithelium           	腎上皮
+Kidney proximal tubule      	腎近位尿細管
+Lacrimal gland              	涙腺
+Lactating mammary gland     	授乳中の乳腺
+Laryngeal carcinoma         	喉頭癌
+Leiomyosarcoma              	平滑筋肉腫
+Lens                        	水晶体
+Lens epithelium             	水晶体上皮
+Lens fibers                 	水晶体線維
+Leptomeninges               	軟膜
+Leukemia                    	白血病
+Leukemic T-cell             	白血病性T細胞
+Leukocyte                   	白血球
+Lip                         	唇
+Liposarcoma                 	脂肪肉腫
+Liver                       	肝臓
+Liver cancer                	肝がん
+Liver epithelium            	肝上皮
+Liver tumor                 	肝腫瘍
+Lung                        	肺
+Lung adenocarcinoma         	肺腺癌
+Lung cancer                 	肺がん
+Lung carcinoma              	肺癌
+Lung endothelial cell       	肺内皮細胞
+Lung epithelium             	肺上皮
+Lung fibroblast             	肺線維芽細胞
+Lung tumor                  	肺腫瘍
+Lymph                       	リンパ
+Lymph node                  	リンパ節
+Lymphoblast                 	リンパ芽球
+Lymphoblastoma              	リンパ芽球腫
+Lymphocyte                  	リンパ球
+Lymphoid tissue             	リンパ組織
+Lymphoma                    	リンパ腫
+Macrophage                  	マクロファージ
+Mammary cancer              	乳がん
+Mammary carcinoma           	乳癌
+Mammary epithelium          	乳腺上皮
+Mammary gland               	乳腺
+Mammary tumor               	乳腺腫瘍
+Mast cell                   	肥満細胞
+Medulla oblongata           	延髄
+Medulloblastoma             	髄芽腫
+Megakaryoblast              	巨核芽球
+Megakaryocyte               	巨核球
+Melanocyte                  	メラノサイト
+Melanoma                    	メラノーマ
+Meninges                    	髄膜
+Meningioma                  	髄膜腫
+Mesangial cell              	メサンギウム細胞
+Mesenchymal cell            	間葉系細胞
+Mesenchymal stem cell       	間葉系幹細胞
+Mesenchymal tumor           	間葉系腫瘍
+Mesothelium                 	中皮
+Microglia                   	ミクログリア
+Milk                        	ミルク
+Molar                       	臼歯
+Monocyte                    	単球
+Monocytic leukemia          	単球性白血病
+Muscle                      	筋肉
+Muscle fibroblast           	筋線維芽細胞
+Myeloid                     	骨髄系
+Myeloid leukemia cell       	骨髄性白血病細胞
+Myeloma                     	骨髄腫
+Myelomonocyte               	骨髄単球
+Myoblast                    	筋芽細胞
+Myocardium                  	心筋
+Myometrium                  	子宮筋層
+Nasal epithelium            	鼻上皮
+Nasal mucosa                	鼻粘膜
+Nasal mucus                 	鼻粘液
+Nasal polyp                 	鼻ポリープ
+Nasopharyngeal carcinoma    	鼻咽頭癌
+Nasopharyngeal epithelium   	鼻咽頭上皮
+Nasopharynx                 	鼻咽頭
+Natural killer cell         	ナチュラルキラー細胞
+Neonatal brain              	新生児脳
+Neonatal brain stem         	新生児脳幹
+Neonatal skin               	新生児皮膚
+Neuroblastoma               	神経芽細胞腫
+Neuroectoderm               	神経外胚葉
+Neuroepithelioma            	神経上皮腫
+Neuroepithelium             	神経上皮
+Neuron                      	ニューロン
+Neuroretina                 	神経網膜
+Neutrophil                  	好中球
+Occipital cortex            	後頭皮質
+Ocular ciliary body         	眼毛様体
+Ocular ciliary epithelium   	眼毛様体上皮
+Odontoblast                 	象牙芽細胞
+Olfactory bulb              	嗅球
+Oligodendroglioma           	乏突起膠腫
+Oocyte                      	卵母細胞
+Optic nerve                 	視神経
+Oral cancer                 	口腔がん
+Oral epithelium             	口腔上皮
+Oral mucosa                 	口腔粘膜
+Organ of Corti              	コルチ器
+Osteoarthritic cartilage    	変形性関節症軟骨
+Osteoblast                  	骨芽細胞
+Osteoclast                  	破骨細胞
+Osteoclastoma               	破骨細胞腫
+Osteocyte                   	骨細胞
+Osteosarcoma                	骨肉腫
+Ovarian adenocarcinoma      	卵巣腺癌
+Ovarian cancer              	卵巣がん
+Ovarian carcinoma           	卵巣癌
+Ovarian follicular fluid    	卵巣濾胞液
+Ovarian granulosa cell      	卵巣顆粒膜細胞
+Ovary                       	卵巣
+Ovary tumor                 	卵巣腫瘍
+Oviduct                     	卵管
+PNS                         	末梢神経系
+Pancreas                    	膵臓
+Pancreas islet cell         	膵島細胞
+Pancreatic adenocarcinoma   	膵腺癌
+Pancreatic cancer           	膵がん
+Pancreatic carcinoma        	膵癌
+Pancreatic islet            	膵島
+Pancreatic tumor            	膵腫瘍
+Parathyroid                 	副甲状腺
+Parathyroid adenoma         	副甲状腺腺腫
+Parotid gland               	耳下腺
+Pectoralis muscle           	大胸筋
+Penis                       	陰茎
+Pericardium                 	心膜
+Periodontal ligament        	歯根膜
+Peripheral blood            	末梢血
+Peripheral blood T-cell     	末梢血T細胞
+Peripheral blood granulocyte	末梢血顆粒球
+Peripheral blood leukocyte  	末梢血白血球
+Peripheral blood lymphocyte 	末梢血リンパ球
+Peripheral blood monocyte   	末梢血単球
+Peripheral blood neutrophil 	末梢血好中球
+Peripheral nerve            	末梢神経
+Pharynx carcinoma           	咽頭癌
+Pheochromocytoma            	褐色細胞腫
+Pineal gland                	松果体
+Pituitary                   	下垂体
+Pituitary adenoma           	下垂体腺腫
+Pituitary anterior lobe     	下垂体前葉
+Pituitary tumor             	下垂体腫瘍
+Placenta                    	胎盤
+Plasma                      	血漿
+Plasmacytoid dendritic cell 	形質細胞様樹状細胞
+Platelet                    	血小板
+Pons                        	橋
+Pre-B cell                  	前駆B細胞
+Prefrontal cortex           	前頭前皮質
+Premonocytic leukemia       	前単球性白血病
+Premonocytic lymphoma       	前単球性リンパ腫
+Promyelocyte                	前骨髄球
+Promyelocytic leukemia      	前骨髄球性白血病
+Prostate                    	前立腺
+Prostate cancer             	前立腺がん
+Prostatic adenocarcinoma    	前立腺腺癌
+Prostatic carcinoma         	前立腺癌
+Psoriatic skin              	乾癬皮膚
+Pulmonary artery            	肺動脈
+Rectum                      	直腸
+Rectum tumor                	直腸腫瘍
+Regenerating liver          	再生肝
+Renal cell carcinoma        	腎細胞癌
+Renal cyst lining cell      	腎嚢胞裏打ち細胞
+Renal glomerulus            	腎糸球体
+Renal medulla               	腎髄質
+Reticulocyte                	網赤血球
+Retina                      	網膜
+Retinal cone cell           	網膜錐体細胞
+Retinal pigment epithelium  	網膜色素上皮
+Retinal rod cell            	網膜杆体細胞
+Retinoblastoma              	網膜芽細胞腫
+Rhabdomyosarcoma            	横紋筋肉腫
+Rheumatoid arthritic synovial fluid	リウマチ性関節炎滑液
+Saliva                      	唾液
+Salivary gland              	唾液腺
+Scalp                       	頭皮
+Sciatic nerve               	坐骨神経
+Semen                       	精液
+Seminal plasma              	精漿
+Seminal vesicle             	精嚢
+Seminiferous tubule         	精細管
+Seminoma                    	精巣腫瘍
+Serum                       	血清
+Signet-ring cell carcinoma  	印環細胞癌
+Skeletal muscle             	骨格筋
+Skin                        	皮膚
+Skin fibroblast             	皮膚線維芽細胞
+Slow skeletal muscle        	遅筋
+Small intestine             	小腸
+Small intestine mucosa      	小腸粘膜
+Smooth muscle               	平滑筋
+Smooth muscle cell          	平滑筋細胞
+Sperm                       	精子
+Spermatocyte                	精母細胞
+Spinal cord                 	脊髄
+Spinal ganglion             	脊髄神経節
+Spleen                      	脾臓
+Sputum                      	痰
+Squamous cell carcinoma     	扁平上皮癌
+Stomach                     	胃
+Stomach cancer              	胃がん
+Stratum corneum             	角質層
+Subcommissural organ        	交連下器官
+Sublingual gland            	舌下腺
+Submandibular gland         	顎下腺
+Substantia nigra            	黒質
+Subthalamic nucleus         	視床下核
+Sweat gland                 	汗腺
+Sympathetic ganglion        	交感神経節
+Synovial cell               	滑膜細胞
+Synovial fluid              	滑液
+Synovial sarcoma            	滑膜肉腫
+Synovium                    	滑膜
+T lymphoblast               	Tリンパ芽球
+T-cell                      	T細胞
+T-cell lymphoma             	T細胞リンパ腫
+Tear                        	涙
+Telencephalon               	終脳
+Temporal cortex             	側頭皮質
+Teratocarcinoma             	奇形腫
+Term myometrium             	分娩期子宮筋層
+Term placenta               	分娩期胎盤
+Testis                      	精巣
+Testis carcinoma            	精巣癌
+Thalamus                    	視床
+Thigh epidermis             	大腿表皮
+Thymic epithelium           	胸腺上皮
+Thymocyte                   	胸腺細胞
+Thymus                      	胸腺
+Thyroid                     	甲状腺
+Thyroid carcinoma           	甲状腺癌
+Thyroid papillary carcinoma 	甲状腺乳頭癌
+Thyroid tumor               	甲状腺腫瘍
+Tongue                      	舌
+Tongue epithelium           	舌上皮
+Tonsil                      	扁桃
+Tonsillar carcinoma         	扁桃癌
+Tooth                       	歯
+Tooth bud                   	歯胚
+Trabecular meshwork         	小柱網
+Trachea                     	気管
+Tracheal epithelium         	気管上皮
+Tracheobronchial epithelium 	気管支上皮
+Tracheobronchial mucosa     	気管支粘膜
+Trophoblast                 	栄養膜細胞
+Umbilical artery            	臍動脈
+Umbilical cord              	臍帯
+Umbilical cord blood        	臍帯血
+Umbilical smooth muscle     	臍平滑筋
+Umbilical vein              	臍静脈
+Umbilical vein endothelial cell	臍静脈内皮細胞
+Unclassified                	分類不能
+Ureter                      	尿管
+Urinary bladder             	膀胱
+Urinary bladder carcinoma   	膀胱癌
+Urinary bladder smooth muscle	膀胱平滑筋
+Urinary bladder urothelium  	膀胱上皮
+Urinary bladder wart        	膀胱疣
+Urine                       	尿
+Urothelium                  	尿路上皮
+Uterine adenocarcinoma      	子宮腺癌
+Uterine ectocervix          	子宮外頸
+Uterine endothelium         	子宮内皮
+Uterine leiomyoma           	子宮平滑筋腫
+Uterus                      	子宮
+Vagina                      	膣
+Vascular endothelial cell   	血管内皮細胞
+Vascular smooth muscle      	血管平滑筋
+Vein                        	静脈
+Venom                       	毒液
+Venom gland                 	毒腺
+Vulva                       	外陰部
+White adipose tissue        	白色脂肪組織
+Xylem                       	木部

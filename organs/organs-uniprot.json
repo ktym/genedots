@@ -1,0 +1,1938 @@
+[
+  {
+    "en": "Abdominal adipose tissue",
+    "ja": "腹部脂肪組織"
+  },
+  {
+    "en": "Adipocyte",
+    "ja": "脂肪細胞"
+  },
+  {
+    "en": "Adipose tissue",
+    "ja": "脂肪組織"
+  },
+  {
+    "en": "Adrenal cortex",
+    "ja": "副腎皮質"
+  },
+  {
+    "en": "Adrenal gland",
+    "ja": "副腎"
+  },
+  {
+    "en": "Adrenal medulla",
+    "ja": "副腎髄質"
+  },
+  {
+    "en": "Adrenal tumor",
+    "ja": "副腎腫瘍"
+  },
+  {
+    "en": "Airway epithelium",
+    "ja": "気道上皮"
+  },
+  {
+    "en": "Alveolar macrophage",
+    "ja": "肺胞マクロファージ"
+  },
+  {
+    "en": "Amnion",
+    "ja": "羊膜"
+  },
+  {
+    "en": "Amniotic fluid",
+    "ja": "羊水"
+  },
+  {
+    "en": "Amygdala",
+    "ja": "扁桃体"
+  },
+  {
+    "en": "Aorta",
+    "ja": "大動脈"
+  },
+  {
+    "en": "Aortic endothelium",
+    "ja": "大動脈内皮"
+  },
+  {
+    "en": "Aortic smooth muscle",
+    "ja": "大動脈平滑筋"
+  },
+  {
+    "en": "Artery",
+    "ja": "動脈"
+  },
+  {
+    "en": "Artery smooth muscle",
+    "ja": "動脈平滑筋"
+  },
+  {
+    "en": "Articular cartilage",
+    "ja": "関節軟骨"
+  },
+  {
+    "en": "Articular chondrocyte",
+    "ja": "関節軟骨細胞"
+  },
+  {
+    "en": "Ascites",
+    "ja": "腹水"
+  },
+  {
+    "en": "Astrocyte",
+    "ja": "星状細胞"
+  },
+  {
+    "en": "Astrocytoma",
+    "ja": "星状細胞腫"
+  },
+  {
+    "en": "B-cell",
+    "ja": "B細胞"
+  },
+  {
+    "en": "B-cell lymphoma",
+    "ja": "B細胞リンパ腫"
+  },
+  {
+    "en": "Bile",
+    "ja": "胆汁"
+  },
+  {
+    "en": "Blastocyst",
+    "ja": "胚盤胞"
+  },
+  {
+    "en": "Blood",
+    "ja": "血液"
+  },
+  {
+    "en": "Blood vessel",
+    "ja": "血管"
+  },
+  {
+    "en": "Bone",
+    "ja": "骨"
+  },
+  {
+    "en": "Bone marrow",
+    "ja": "骨髄"
+  },
+  {
+    "en": "Bone marrow stroma",
+    "ja": "骨髄間質"
+  },
+  {
+    "en": "Bone marrow tumor",
+    "ja": "骨髄腫瘍"
+  },
+  {
+    "en": "Brain",
+    "ja": "脳"
+  },
+  {
+    "en": "Brain capillary",
+    "ja": "脳毛細血管"
+  },
+  {
+    "en": "Brain cortex",
+    "ja": "脳皮質"
+  },
+  {
+    "en": "Brain endothelium",
+    "ja": "脳内皮"
+  },
+  {
+    "en": "Brain stem",
+    "ja": "脳幹"
+  },
+  {
+    "en": "Brain tumor",
+    "ja": "脳腫瘍"
+  },
+  {
+    "en": "Bronchiolar epithelial cell",
+    "ja": "細気管支上皮細胞"
+  },
+  {
+    "en": "Bronchus",
+    "ja": "気管支"
+  },
+  {
+    "en": "Brown adipose tissue",
+    "ja": "褐色脂肪組織"
+  },
+  {
+    "en": "CNS",
+    "ja": "中枢神経系"
+  },
+  {
+    "en": "Cajal-Retzius cell",
+    "ja": "カハール・レチウス細胞"
+  },
+  {
+    "en": "Cancellous bone",
+    "ja": "海綿骨"
+  },
+  {
+    "en": "Capillary endothelium",
+    "ja": "毛細血管内皮"
+  },
+  {
+    "en": "Carcinoma",
+    "ja": "癌"
+  },
+  {
+    "en": "Cardiac myocyte",
+    "ja": "心筋細胞"
+  },
+  {
+    "en": "Cartilage",
+    "ja": "軟骨"
+  },
+  {
+    "en": "Caudate nucleus",
+    "ja": "尾状核"
+  },
+  {
+    "en": "Cementoblast",
+    "ja": "セメント芽細胞"
+  },
+  {
+    "en": "Cerebellum",
+    "ja": "小脳"
+  },
+  {
+    "en": "Cerebrospinal fluid",
+    "ja": "脳脊髄液"
+  },
+  {
+    "en": "Cervix",
+    "ja": "子宮頸部"
+  },
+  {
+    "en": "Cervix adenocarcinoma",
+    "ja": "子宮頸部腺癌"
+  },
+  {
+    "en": "Cervix carcinoma",
+    "ja": "子宮頸部癌"
+  },
+  {
+    "en": "Cervix epithelium",
+    "ja": "子宮頸部上皮"
+  },
+  {
+    "en": "Chondrocyte",
+    "ja": "軟骨細胞"
+  },
+  {
+    "en": "Chondrosarcoma",
+    "ja": "軟骨肉腫"
+  },
+  {
+    "en": "Chorioamniotic membrane",
+    "ja": "絨毛膜羊膜"
+  },
+  {
+    "en": "Choriocarcinoma",
+    "ja": "絨毛癌"
+  },
+  {
+    "en": "Chronic myeloid leukemia cell",
+    "ja": "慢性骨髄性白血病細胞"
+  },
+  {
+    "en": "Cochlea",
+    "ja": "蝸牛"
+  },
+  {
+    "en": "Colon",
+    "ja": "結腸"
+  },
+  {
+    "en": "Colon adenocarcinoma",
+    "ja": "結腸腺癌"
+  },
+  {
+    "en": "Colon cancer",
+    "ja": "結腸がん"
+  },
+  {
+    "en": "Colon carcinoma",
+    "ja": "結腸癌"
+  },
+  {
+    "en": "Colon endothelium",
+    "ja": "結腸内皮"
+  },
+  {
+    "en": "Colon epithelium",
+    "ja": "結腸上皮"
+  },
+  {
+    "en": "Colon mucosa",
+    "ja": "結腸粘膜"
+  },
+  {
+    "en": "Colon smooth muscle",
+    "ja": "結腸平滑筋"
+  },
+  {
+    "en": "Colon tumor",
+    "ja": "結腸腫瘍"
+  },
+  {
+    "en": "Cornea",
+    "ja": "角膜"
+  },
+  {
+    "en": "Corneal endothelium",
+    "ja": "角膜内皮"
+  },
+  {
+    "en": "Corneal epithelium",
+    "ja": "角膜上皮"
+  },
+  {
+    "en": "Corneal fibroblast",
+    "ja": "角膜線維芽細胞"
+  },
+  {
+    "en": "Coronary arterial endothelium",
+    "ja": "冠動脈内皮"
+  },
+  {
+    "en": "Coronary artery",
+    "ja": "冠動脈"
+  },
+  {
+    "en": "Corpus callosum",
+    "ja": "脳梁"
+  },
+  {
+    "en": "Corpus striatum",
+    "ja": "線条体"
+  },
+  {
+    "en": "Craniofacial",
+    "ja": "頭蓋顔面"
+  },
+  {
+    "en": "Cytotoxic T-cell",
+    "ja": "細胞傷害性T細胞"
+  },
+  {
+    "en": "Decidua",
+    "ja": "脱落膜"
+  },
+  {
+    "en": "Dendritic cell",
+    "ja": "樹状細胞"
+  },
+  {
+    "en": "Dental pulp",
+    "ja": "歯髄"
+  },
+  {
+    "en": "Dermoid cancer",
+    "ja": "皮様癌"
+  },
+  {
+    "en": "Duodenal adenocarcinoma",
+    "ja": "十二指腸腺癌"
+  },
+  {
+    "en": "Duodenal mucosa",
+    "ja": "十二指腸粘膜"
+  },
+  {
+    "en": "Duodenum",
+    "ja": "十二指腸"
+  },
+  {
+    "en": "Ectomesenchyme",
+    "ja": "外胚葉間葉"
+  },
+  {
+    "en": "Embryo",
+    "ja": "胚"
+  },
+  {
+    "en": "Embryonic brain",
+    "ja": "胚性脳"
+  },
+  {
+    "en": "Embryonic carcinoma",
+    "ja": "胚性癌"
+  },
+  {
+    "en": "Embryonic fibroblast",
+    "ja": "胚性線維芽細胞"
+  },
+  {
+    "en": "Embryonic head",
+    "ja": "胚性頭部"
+  },
+  {
+    "en": "Embryonic heart",
+    "ja": "胚性心臓"
+  },
+  {
+    "en": "Embryonic kidney",
+    "ja": "胚性腎臓"
+  },
+  {
+    "en": "Embryonic liver",
+    "ja": "胚性肝臓"
+  },
+  {
+    "en": "Embryonic lung",
+    "ja": "胚性肺"
+  },
+  {
+    "en": "Embryonic lung fibroblast",
+    "ja": "胚性肺線維芽細胞"
+  },
+  {
+    "en": "Embryonic rhabdomyosarcoma",
+    "ja": "胚性横紋筋肉腫"
+  },
+  {
+    "en": "Embryonic spinal cord",
+    "ja": "胚性脊髄"
+  },
+  {
+    "en": "Embryonic stem cell",
+    "ja": "胚性幹細胞"
+  },
+  {
+    "en": "Embryonic testis",
+    "ja": "胚性精巣"
+  },
+  {
+    "en": "Embryonic testis carcinoma",
+    "ja": "胚性精巣癌"
+  },
+  {
+    "en": "Endometrial adenocarcinoma",
+    "ja": "子宮内膜腺癌"
+  },
+  {
+    "en": "Endometrial cancer",
+    "ja": "子宮内膜がん"
+  },
+  {
+    "en": "Endometrial tumor",
+    "ja": "子宮内膜腫瘍"
+  },
+  {
+    "en": "Endometrium",
+    "ja": "子宮内膜"
+  },
+  {
+    "en": "Endothelial cell",
+    "ja": "内皮細胞"
+  },
+  {
+    "en": "Eosinophil",
+    "ja": "好酸球"
+  },
+  {
+    "en": "Epidermal carcinoma",
+    "ja": "表皮癌"
+  },
+  {
+    "en": "Epidermis",
+    "ja": "表皮"
+  },
+  {
+    "en": "Epididymis",
+    "ja": "精巣上体"
+  },
+  {
+    "en": "Epithelium",
+    "ja": "上皮"
+  },
+  {
+    "en": "Erythroblast",
+    "ja": "赤芽球"
+  },
+  {
+    "en": "Erythrocyte",
+    "ja": "赤血球"
+  },
+  {
+    "en": "Erythroid cell",
+    "ja": "赤血球系細胞"
+  },
+  {
+    "en": "Erythroleukemia",
+    "ja": "赤血球白血病"
+  },
+  {
+    "en": "Esophageal carcinoma",
+    "ja": "食道癌"
+  },
+  {
+    "en": "Esophagus",
+    "ja": "食道"
+  },
+  {
+    "en": "Ewing sarcoma",
+    "ja": "ユーイング肉腫"
+  },
+  {
+    "en": "Extraocular muscle",
+    "ja": "外眼筋"
+  },
+  {
+    "en": "Eye",
+    "ja": "目"
+  },
+  {
+    "en": "Femoral artery",
+    "ja": "大腿動脈"
+  },
+  {
+    "en": "Femur",
+    "ja": "大腿骨"
+  },
+  {
+    "en": "Fetal B-cell",
+    "ja": "胎児B細胞"
+  },
+  {
+    "en": "Fetal adrenal gland",
+    "ja": "胎児副腎"
+  },
+  {
+    "en": "Fetal astrocyte",
+    "ja": "胎児星状細胞"
+  },
+  {
+    "en": "Fetal blood",
+    "ja": "胎児血液"
+  },
+  {
+    "en": "Fetal brain",
+    "ja": "胎児脳"
+  },
+  {
+    "en": "Fetal brain cortex",
+    "ja": "胎児脳皮質"
+  },
+  {
+    "en": "Fetal cartilage",
+    "ja": "胎児軟骨"
+  },
+  {
+    "en": "Fetal colon",
+    "ja": "胎児結腸"
+  },
+  {
+    "en": "Fetal esophagus",
+    "ja": "胎児食道"
+  },
+  {
+    "en": "Fetal eye",
+    "ja": "胎児目"
+  },
+  {
+    "en": "Fetal fibroblast",
+    "ja": "胎児線維芽細胞"
+  },
+  {
+    "en": "Fetal heart",
+    "ja": "胎児心臓"
+  },
+  {
+    "en": "Fetal kidney",
+    "ja": "胎児腎臓"
+  },
+  {
+    "en": "Fetal liver",
+    "ja": "胎児肝臓"
+  },
+  {
+    "en": "Fetal lung",
+    "ja": "胎児肺"
+  },
+  {
+    "en": "Fetal lung fibroblast",
+    "ja": "胎児肺線維芽細胞"
+  },
+  {
+    "en": "Fetal muscle",
+    "ja": "胎児筋肉"
+  },
+  {
+    "en": "Fetal pancreas",
+    "ja": "胎児膵臓"
+  },
+  {
+    "en": "Fetal retina",
+    "ja": "胎児網膜"
+  },
+  {
+    "en": "Fetal skeletal muscle",
+    "ja": "胎児骨格筋"
+  },
+  {
+    "en": "Fetal skin",
+    "ja": "胎児皮膚"
+  },
+  {
+    "en": "Fetal spinal cord",
+    "ja": "胎児脊髄"
+  },
+  {
+    "en": "Fetal spleen",
+    "ja": "胎児脾臓"
+  },
+  {
+    "en": "Fetal sternum",
+    "ja": "胎児胸骨"
+  },
+  {
+    "en": "Fetal testis",
+    "ja": "胎児精巣"
+  },
+  {
+    "en": "Fetal thymus",
+    "ja": "胎児胸腺"
+  },
+  {
+    "en": "Fetus",
+    "ja": "胎児"
+  },
+  {
+    "en": "Fibroblast",
+    "ja": "線維芽細胞"
+  },
+  {
+    "en": "Fibrosarcoma",
+    "ja": "線維肉腫"
+  },
+  {
+    "en": "Follicular cell",
+    "ja": "濾胞細胞"
+  },
+  {
+    "en": "Foot sole tissue",
+    "ja": "足底組織"
+  },
+  {
+    "en": "Forebrain",
+    "ja": "前脳"
+  },
+  {
+    "en": "Forebrain cortex",
+    "ja": "前脳皮質"
+  },
+  {
+    "en": "Foreskin",
+    "ja": "包皮"
+  },
+  {
+    "en": "Foreskin fibroblast",
+    "ja": "包皮線維芽細胞"
+  },
+  {
+    "en": "Foreskin keratinocyte",
+    "ja": "包皮ケラチノサイト"
+  },
+  {
+    "en": "Frontal cortex",
+    "ja": "前頭皮質"
+  },
+  {
+    "en": "Gall bladder",
+    "ja": "胆嚢"
+  },
+  {
+    "en": "Gastric adenocarcinoma",
+    "ja": "胃腺癌"
+  },
+  {
+    "en": "Gastric antrum",
+    "ja": "胃前庭"
+  },
+  {
+    "en": "Gastric carcinoma",
+    "ja": "胃癌"
+  },
+  {
+    "en": "Gastric fundus",
+    "ja": "胃底"
+  },
+  {
+    "en": "Gastric mucosa",
+    "ja": "胃粘膜"
+  },
+  {
+    "en": "Gastric parietal cell",
+    "ja": "胃壁細胞"
+  },
+  {
+    "en": "Germ cell",
+    "ja": "生殖細胞"
+  },
+  {
+    "en": "Glial cell",
+    "ja": "神経膠細胞"
+  },
+  {
+    "en": "Glial tumor",
+    "ja": "神経膠腫瘍"
+  },
+  {
+    "en": "Glioblastoma",
+    "ja": "神経膠芽腫"
+  },
+  {
+    "en": "Granulocyte",
+    "ja": "顆粒球"
+  },
+  {
+    "en": "Hair",
+    "ja": "髪"
+  },
+  {
+    "en": "Hair follicle",
+    "ja": "毛包"
+  },
+  {
+    "en": "Hair follicle dermal papilla",
+    "ja": "毛包真皮乳頭"
+  },
+  {
+    "en": "Hair root",
+    "ja": "毛根"
+  },
+  {
+    "en": "Head",
+    "ja": "頭"
+  },
+  {
+    "en": "Heart",
+    "ja": "心臓"
+  },
+  {
+    "en": "Heart atrium",
+    "ja": "心房"
+  },
+  {
+    "en": "Heart left ventricle",
+    "ja": "左心室"
+  },
+  {
+    "en": "Heart muscle",
+    "ja": "心筋"
+  },
+  {
+    "en": "Heart ventricle",
+    "ja": "心室"
+  },
+  {
+    "en": "Hemangioendothelioma",
+    "ja": "血管内皮腫"
+  },
+  {
+    "en": "Hematopoietic",
+    "ja": "造血"
+  },
+  {
+    "en": "Hematopoietic stem cell",
+    "ja": "造血幹細胞"
+  },
+  {
+    "en": "Hepatic stellate cell",
+    "ja": "肝星状細胞"
+  },
+  {
+    "en": "Hepatoblastoma",
+    "ja": "肝芽腫"
+  },
+  {
+    "en": "Hepatocyte",
+    "ja": "肝細胞"
+  },
+  {
+    "en": "Hepatoma",
+    "ja": "肝癌"
+  },
+  {
+    "en": "Hindbrain",
+    "ja": "後脳"
+  },
+  {
+    "en": "Hippocampus",
+    "ja": "海馬"
+  },
+  {
+    "en": "Histiocytic lymphoma",
+    "ja": "組織球性リンパ腫"
+  },
+  {
+    "en": "Hypothalamus",
+    "ja": "視床下部"
+  },
+  {
+    "en": "Ileal mucosa",
+    "ja": "回腸粘膜"
+  },
+  {
+    "en": "Ileum",
+    "ja": "回腸"
+  },
+  {
+    "en": "Inner ear",
+    "ja": "内耳"
+  },
+  {
+    "en": "Insulinoma",
+    "ja": "インスリノーマ"
+  },
+  {
+    "en": "Intestinal epithelium",
+    "ja": "腸上皮"
+  },
+  {
+    "en": "Intestinal smooth muscle",
+    "ja": "腸平滑筋"
+  },
+  {
+    "en": "Intestine",
+    "ja": "腸"
+  },
+  {
+    "en": "Iris",
+    "ja": "虹彩"
+  },
+  {
+    "en": "Jejunal smooth muscle",
+    "ja": "空腸平滑筋"
+  },
+  {
+    "en": "Jejunum",
+    "ja": "空腸"
+  },
+  {
+    "en": "Keratinocyte",
+    "ja": "ケラチノサイト"
+  },
+  {
+    "en": "Kidney",
+    "ja": "腎臓"
+  },
+  {
+    "en": "Kidney adenocarcinoma",
+    "ja": "腎腺癌"
+  },
+  {
+    "en": "Kidney cortex",
+    "ja": "腎皮質"
+  },
+  {
+    "en": "Kidney epithelium",
+    "ja": "腎上皮"
+  },
+  {
+    "en": "Kidney proximal tubule",
+    "ja": "腎近位尿細管"
+  },
+  {
+    "en": "Lacrimal gland",
+    "ja": "涙腺"
+  },
+  {
+    "en": "Lactating mammary gland",
+    "ja": "授乳中の乳腺"
+  },
+  {
+    "en": "Laryngeal carcinoma",
+    "ja": "喉頭癌"
+  },
+  {
+    "en": "Leiomyosarcoma",
+    "ja": "平滑筋肉腫"
+  },
+  {
+    "en": "Lens",
+    "ja": "水晶体"
+  },
+  {
+    "en": "Lens epithelium",
+    "ja": "水晶体上皮"
+  },
+  {
+    "en": "Lens fibers",
+    "ja": "水晶体線維"
+  },
+  {
+    "en": "Leptomeninges",
+    "ja": "軟膜"
+  },
+  {
+    "en": "Leukemia",
+    "ja": "白血病"
+  },
+  {
+    "en": "Leukemic T-cell",
+    "ja": "白血病性T細胞"
+  },
+  {
+    "en": "Leukocyte",
+    "ja": "白血球"
+  },
+  {
+    "en": "Lip",
+    "ja": "唇"
+  },
+  {
+    "en": "Liposarcoma",
+    "ja": "脂肪肉腫"
+  },
+  {
+    "en": "Liver",
+    "ja": "肝臓"
+  },
+  {
+    "en": "Liver cancer",
+    "ja": "肝がん"
+  },
+  {
+    "en": "Liver epithelium",
+    "ja": "肝上皮"
+  },
+  {
+    "en": "Liver tumor",
+    "ja": "肝腫瘍"
+  },
+  {
+    "en": "Lung",
+    "ja": "肺"
+  },
+  {
+    "en": "Lung adenocarcinoma",
+    "ja": "肺腺癌"
+  },
+  {
+    "en": "Lung cancer",
+    "ja": "肺がん"
+  },
+  {
+    "en": "Lung carcinoma",
+    "ja": "肺癌"
+  },
+  {
+    "en": "Lung endothelial cell",
+    "ja": "肺内皮細胞"
+  },
+  {
+    "en": "Lung epithelium",
+    "ja": "肺上皮"
+  },
+  {
+    "en": "Lung fibroblast",
+    "ja": "肺線維芽細胞"
+  },
+  {
+    "en": "Lung tumor",
+    "ja": "肺腫瘍"
+  },
+  {
+    "en": "Lymph",
+    "ja": "リンパ"
+  },
+  {
+    "en": "Lymph node",
+    "ja": "リンパ節"
+  },
+  {
+    "en": "Lymphoblast",
+    "ja": "リンパ芽球"
+  },
+  {
+    "en": "Lymphoblastoma",
+    "ja": "リンパ芽球腫"
+  },
+  {
+    "en": "Lymphocyte",
+    "ja": "リンパ球"
+  },
+  {
+    "en": "Lymphoid tissue",
+    "ja": "リンパ組織"
+  },
+  {
+    "en": "Lymphoma",
+    "ja": "リンパ腫"
+  },
+  {
+    "en": "Macrophage",
+    "ja": "マクロファージ"
+  },
+  {
+    "en": "Mammary cancer",
+    "ja": "乳がん"
+  },
+  {
+    "en": "Mammary carcinoma",
+    "ja": "乳癌"
+  },
+  {
+    "en": "Mammary epithelium",
+    "ja": "乳腺上皮"
+  },
+  {
+    "en": "Mammary gland",
+    "ja": "乳腺"
+  },
+  {
+    "en": "Mammary tumor",
+    "ja": "乳腺腫瘍"
+  },
+  {
+    "en": "Mast cell",
+    "ja": "肥満細胞"
+  },
+  {
+    "en": "Medulla oblongata",
+    "ja": "延髄"
+  },
+  {
+    "en": "Medulloblastoma",
+    "ja": "髄芽腫"
+  },
+  {
+    "en": "Megakaryoblast",
+    "ja": "巨核芽球"
+  },
+  {
+    "en": "Megakaryocyte",
+    "ja": "巨核球"
+  },
+  {
+    "en": "Melanocyte",
+    "ja": "メラノサイト"
+  },
+  {
+    "en": "Melanoma",
+    "ja": "メラノーマ"
+  },
+  {
+    "en": "Meninges",
+    "ja": "髄膜"
+  },
+  {
+    "en": "Meningioma",
+    "ja": "髄膜腫"
+  },
+  {
+    "en": "Mesangial cell",
+    "ja": "メサンギウム細胞"
+  },
+  {
+    "en": "Mesenchymal cell",
+    "ja": "間葉系細胞"
+  },
+  {
+    "en": "Mesenchymal stem cell",
+    "ja": "間葉系幹細胞"
+  },
+  {
+    "en": "Mesenchymal tumor",
+    "ja": "間葉系腫瘍"
+  },
+  {
+    "en": "Mesothelium",
+    "ja": "中皮"
+  },
+  {
+    "en": "Microglia",
+    "ja": "ミクログリア"
+  },
+  {
+    "en": "Milk",
+    "ja": "ミルク"
+  },
+  {
+    "en": "Molar",
+    "ja": "臼歯"
+  },
+  {
+    "en": "Monocyte",
+    "ja": "単球"
+  },
+  {
+    "en": "Monocytic leukemia",
+    "ja": "単球性白血病"
+  },
+  {
+    "en": "Muscle",
+    "ja": "筋肉"
+  },
+  {
+    "en": "Muscle fibroblast",
+    "ja": "筋線維芽細胞"
+  },
+  {
+    "en": "Myeloid",
+    "ja": "骨髄系"
+  },
+  {
+    "en": "Myeloid leukemia cell",
+    "ja": "骨髄性白血病細胞"
+  },
+  {
+    "en": "Myeloma",
+    "ja": "骨髄腫"
+  },
+  {
+    "en": "Myelomonocyte",
+    "ja": "骨髄単球"
+  },
+  {
+    "en": "Myoblast",
+    "ja": "筋芽細胞"
+  },
+  {
+    "en": "Myocardium",
+    "ja": "心筋"
+  },
+  {
+    "en": "Myometrium",
+    "ja": "子宮筋層"
+  },
+  {
+    "en": "Nasal epithelium",
+    "ja": "鼻上皮"
+  },
+  {
+    "en": "Nasal mucosa",
+    "ja": "鼻粘膜"
+  },
+  {
+    "en": "Nasal mucus",
+    "ja": "鼻粘液"
+  },
+  {
+    "en": "Nasal polyp",
+    "ja": "鼻ポリープ"
+  },
+  {
+    "en": "Nasopharyngeal carcinoma",
+    "ja": "鼻咽頭癌"
+  },
+  {
+    "en": "Nasopharyngeal epithelium",
+    "ja": "鼻咽頭上皮"
+  },
+  {
+    "en": "Nasopharynx",
+    "ja": "鼻咽頭"
+  },
+  {
+    "en": "Natural killer cell",
+    "ja": "ナチュラルキラー細胞"
+  },
+  {
+    "en": "Neonatal brain",
+    "ja": "新生児脳"
+  },
+  {
+    "en": "Neonatal brain stem",
+    "ja": "新生児脳幹"
+  },
+  {
+    "en": "Neonatal skin",
+    "ja": "新生児皮膚"
+  },
+  {
+    "en": "Neuroblastoma",
+    "ja": "神経芽細胞腫"
+  },
+  {
+    "en": "Neuroectoderm",
+    "ja": "神経外胚葉"
+  },
+  {
+    "en": "Neuroepithelioma",
+    "ja": "神経上皮腫"
+  },
+  {
+    "en": "Neuroepithelium",
+    "ja": "神経上皮"
+  },
+  {
+    "en": "Neuron",
+    "ja": "ニューロン"
+  },
+  {
+    "en": "Neuroretina",
+    "ja": "神経網膜"
+  },
+  {
+    "en": "Neutrophil",
+    "ja": "好中球"
+  },
+  {
+    "en": "Occipital cortex",
+    "ja": "後頭皮質"
+  },
+  {
+    "en": "Ocular ciliary body",
+    "ja": "眼毛様体"
+  },
+  {
+    "en": "Ocular ciliary epithelium",
+    "ja": "眼毛様体上皮"
+  },
+  {
+    "en": "Odontoblast",
+    "ja": "象牙芽細胞"
+  },
+  {
+    "en": "Olfactory bulb",
+    "ja": "嗅球"
+  },
+  {
+    "en": "Oligodendroglioma",
+    "ja": "乏突起膠腫"
+  },
+  {
+    "en": "Oocyte",
+    "ja": "卵母細胞"
+  },
+  {
+    "en": "Optic nerve",
+    "ja": "視神経"
+  },
+  {
+    "en": "Oral cancer",
+    "ja": "口腔がん"
+  },
+  {
+    "en": "Oral epithelium",
+    "ja": "口腔上皮"
+  },
+  {
+    "en": "Oral mucosa",
+    "ja": "口腔粘膜"
+  },
+  {
+    "en": "Organ of Corti",
+    "ja": "コルチ器"
+  },
+  {
+    "en": "Osteoarthritic cartilage",
+    "ja": "変形性関節症軟骨"
+  },
+  {
+    "en": "Osteoblast",
+    "ja": "骨芽細胞"
+  },
+  {
+    "en": "Osteoclast",
+    "ja": "破骨細胞"
+  },
+  {
+    "en": "Osteoclastoma",
+    "ja": "破骨細胞腫"
+  },
+  {
+    "en": "Osteocyte",
+    "ja": "骨細胞"
+  },
+  {
+    "en": "Osteosarcoma",
+    "ja": "骨肉腫"
+  },
+  {
+    "en": "Ovarian adenocarcinoma",
+    "ja": "卵巣腺癌"
+  },
+  {
+    "en": "Ovarian cancer",
+    "ja": "卵巣がん"
+  },
+  {
+    "en": "Ovarian carcinoma",
+    "ja": "卵巣癌"
+  },
+  {
+    "en": "Ovarian follicular fluid",
+    "ja": "卵巣濾胞液"
+  },
+  {
+    "en": "Ovarian granulosa cell",
+    "ja": "卵巣顆粒膜細胞"
+  },
+  {
+    "en": "Ovary",
+    "ja": "卵巣"
+  },
+  {
+    "en": "Ovary tumor",
+    "ja": "卵巣腫瘍"
+  },
+  {
+    "en": "Oviduct",
+    "ja": "卵管"
+  },
+  {
+    "en": "PNS",
+    "ja": "末梢神経系"
+  },
+  {
+    "en": "Pancreas",
+    "ja": "膵臓"
+  },
+  {
+    "en": "Pancreas islet cell",
+    "ja": "膵島細胞"
+  },
+  {
+    "en": "Pancreatic adenocarcinoma",
+    "ja": "膵腺癌"
+  },
+  {
+    "en": "Pancreatic cancer",
+    "ja": "膵がん"
+  },
+  {
+    "en": "Pancreatic carcinoma",
+    "ja": "膵癌"
+  },
+  {
+    "en": "Pancreatic islet",
+    "ja": "膵島"
+  },
+  {
+    "en": "Pancreatic tumor",
+    "ja": "膵腫瘍"
+  },
+  {
+    "en": "Parathyroid",
+    "ja": "副甲状腺"
+  },
+  {
+    "en": "Parathyroid adenoma",
+    "ja": "副甲状腺腺腫"
+  },
+  {
+    "en": "Parotid gland",
+    "ja": "耳下腺"
+  },
+  {
+    "en": "Pectoralis muscle",
+    "ja": "大胸筋"
+  },
+  {
+    "en": "Penis",
+    "ja": "陰茎"
+  },
+  {
+    "en": "Pericardium",
+    "ja": "心膜"
+  },
+  {
+    "en": "Periodontal ligament",
+    "ja": "歯根膜"
+  },
+  {
+    "en": "Peripheral blood",
+    "ja": "末梢血"
+  },
+  {
+    "en": "Peripheral blood T-cell",
+    "ja": "末梢血T細胞"
+  },
+  {
+    "en": "Peripheral blood granulocyte",
+    "ja": "末梢血顆粒球"
+  },
+  {
+    "en": "Peripheral blood leukocyte",
+    "ja": "末梢血白血球"
+  },
+  {
+    "en": "Peripheral blood lymphocyte",
+    "ja": "末梢血リンパ球"
+  },
+  {
+    "en": "Peripheral blood monocyte",
+    "ja": "末梢血単球"
+  },
+  {
+    "en": "Peripheral blood neutrophil",
+    "ja": "末梢血好中球"
+  },
+  {
+    "en": "Peripheral nerve",
+    "ja": "末梢神経"
+  },
+  {
+    "en": "Pharynx carcinoma",
+    "ja": "咽頭癌"
+  },
+  {
+    "en": "Pheochromocytoma",
+    "ja": "褐色細胞腫"
+  },
+  {
+    "en": "Pineal gland",
+    "ja": "松果体"
+  },
+  {
+    "en": "Pituitary",
+    "ja": "下垂体"
+  },
+  {
+    "en": "Pituitary adenoma",
+    "ja": "下垂体腺腫"
+  },
+  {
+    "en": "Pituitary anterior lobe",
+    "ja": "下垂体前葉"
+  },
+  {
+    "en": "Pituitary tumor",
+    "ja": "下垂体腫瘍"
+  },
+  {
+    "en": "Placenta",
+    "ja": "胎盤"
+  },
+  {
+    "en": "Plasma",
+    "ja": "血漿"
+  },
+  {
+    "en": "Plasmacytoid dendritic cell",
+    "ja": "形質細胞様樹状細胞"
+  },
+  {
+    "en": "Platelet",
+    "ja": "血小板"
+  },
+  {
+    "en": "Pons",
+    "ja": "橋"
+  },
+  {
+    "en": "Pre-B cell",
+    "ja": "前駆B細胞"
+  },
+  {
+    "en": "Prefrontal cortex",
+    "ja": "前頭前皮質"
+  },
+  {
+    "en": "Premonocytic leukemia",
+    "ja": "前単球性白血病"
+  },
+  {
+    "en": "Premonocytic lymphoma",
+    "ja": "前単球性リンパ腫"
+  },
+  {
+    "en": "Promyelocyte",
+    "ja": "前骨髄球"
+  },
+  {
+    "en": "Promyelocytic leukemia",
+    "ja": "前骨髄球性白血病"
+  },
+  {
+    "en": "Prostate",
+    "ja": "前立腺"
+  },
+  {
+    "en": "Prostate cancer",
+    "ja": "前立腺がん"
+  },
+  {
+    "en": "Prostatic adenocarcinoma",
+    "ja": "前立腺腺癌"
+  },
+  {
+    "en": "Prostatic carcinoma",
+    "ja": "前立腺癌"
+  },
+  {
+    "en": "Psoriatic skin",
+    "ja": "乾癬皮膚"
+  },
+  {
+    "en": "Pulmonary artery",
+    "ja": "肺動脈"
+  },
+  {
+    "en": "Rectum",
+    "ja": "直腸"
+  },
+  {
+    "en": "Rectum tumor",
+    "ja": "直腸腫瘍"
+  },
+  {
+    "en": "Regenerating liver",
+    "ja": "再生肝"
+  },
+  {
+    "en": "Renal cell carcinoma",
+    "ja": "腎細胞癌"
+  },
+  {
+    "en": "Renal cyst lining cell",
+    "ja": "腎嚢胞裏打ち細胞"
+  },
+  {
+    "en": "Renal glomerulus",
+    "ja": "腎糸球体"
+  },
+  {
+    "en": "Renal medulla",
+    "ja": "腎髄質"
+  },
+  {
+    "en": "Reticulocyte",
+    "ja": "網赤血球"
+  },
+  {
+    "en": "Retina",
+    "ja": "網膜"
+  },
+  {
+    "en": "Retinal cone cell",
+    "ja": "網膜錐体細胞"
+  },
+  {
+    "en": "Retinal pigment epithelium",
+    "ja": "網膜色素上皮"
+  },
+  {
+    "en": "Retinal rod cell",
+    "ja": "網膜杆体細胞"
+  },
+  {
+    "en": "Retinoblastoma",
+    "ja": "網膜芽細胞腫"
+  },
+  {
+    "en": "Rhabdomyosarcoma",
+    "ja": "横紋筋肉腫"
+  },
+  {
+    "en": "Rheumatoid arthritic synovial fluid",
+    "ja": "リウマチ性関節炎滑液"
+  },
+  {
+    "en": "Saliva",
+    "ja": "唾液"
+  },
+  {
+    "en": "Salivary gland",
+    "ja": "唾液腺"
+  },
+  {
+    "en": "Scalp",
+    "ja": "頭皮"
+  },
+  {
+    "en": "Sciatic nerve",
+    "ja": "坐骨神経"
+  },
+  {
+    "en": "Semen",
+    "ja": "精液"
+  },
+  {
+    "en": "Seminal plasma",
+    "ja": "精漿"
+  },
+  {
+    "en": "Seminal vesicle",
+    "ja": "精嚢"
+  },
+  {
+    "en": "Seminiferous tubule",
+    "ja": "精細管"
+  },
+  {
+    "en": "Seminoma",
+    "ja": "精巣腫瘍"
+  },
+  {
+    "en": "Serum",
+    "ja": "血清"
+  },
+  {
+    "en": "Signet-ring cell carcinoma",
+    "ja": "印環細胞癌"
+  },
+  {
+    "en": "Skeletal muscle",
+    "ja": "骨格筋"
+  },
+  {
+    "en": "Skin",
+    "ja": "皮膚"
+  },
+  {
+    "en": "Skin fibroblast",
+    "ja": "皮膚線維芽細胞"
+  },
+  {
+    "en": "Slow skeletal muscle",
+    "ja": "遅筋"
+  },
+  {
+    "en": "Small intestine",
+    "ja": "小腸"
+  },
+  {
+    "en": "Small intestine mucosa",
+    "ja": "小腸粘膜"
+  },
+  {
+    "en": "Smooth muscle",
+    "ja": "平滑筋"
+  },
+  {
+    "en": "Smooth muscle cell",
+    "ja": "平滑筋細胞"
+  },
+  {
+    "en": "Sperm",
+    "ja": "精子"
+  },
+  {
+    "en": "Spermatocyte",
+    "ja": "精母細胞"
+  },
+  {
+    "en": "Spinal cord",
+    "ja": "脊髄"
+  },
+  {
+    "en": "Spinal ganglion",
+    "ja": "脊髄神経節"
+  },
+  {
+    "en": "Spleen",
+    "ja": "脾臓"
+  },
+  {
+    "en": "Sputum",
+    "ja": "痰"
+  },
+  {
+    "en": "Squamous cell carcinoma",
+    "ja": "扁平上皮癌"
+  },
+  {
+    "en": "Stomach",
+    "ja": "胃"
+  },
+  {
+    "en": "Stomach cancer",
+    "ja": "胃がん"
+  },
+  {
+    "en": "Stratum corneum",
+    "ja": "角質層"
+  },
+  {
+    "en": "Subcommissural organ",
+    "ja": "交連下器官"
+  },
+  {
+    "en": "Sublingual gland",
+    "ja": "舌下腺"
+  },
+  {
+    "en": "Submandibular gland",
+    "ja": "顎下腺"
+  },
+  {
+    "en": "Substantia nigra",
+    "ja": "黒質"
+  },
+  {
+    "en": "Subthalamic nucleus",
+    "ja": "視床下核"
+  },
+  {
+    "en": "Sweat gland",
+    "ja": "汗腺"
+  },
+  {
+    "en": "Sympathetic ganglion",
+    "ja": "交感神経節"
+  },
+  {
+    "en": "Synovial cell",
+    "ja": "滑膜細胞"
+  },
+  {
+    "en": "Synovial fluid",
+    "ja": "滑液"
+  },
+  {
+    "en": "Synovial sarcoma",
+    "ja": "滑膜肉腫"
+  },
+  {
+    "en": "Synovium",
+    "ja": "滑膜"
+  },
+  {
+    "en": "T lymphoblast",
+    "ja": "Tリンパ芽球"
+  },
+  {
+    "en": "T-cell",
+    "ja": "T細胞"
+  },
+  {
+    "en": "T-cell lymphoma",
+    "ja": "T細胞リンパ腫"
+  },
+  {
+    "en": "Tear",
+    "ja": "涙"
+  },
+  {
+    "en": "Telencephalon",
+    "ja": "終脳"
+  },
+  {
+    "en": "Temporal cortex",
+    "ja": "側頭皮質"
+  },
+  {
+    "en": "Teratocarcinoma",
+    "ja": "奇形腫"
+  },
+  {
+    "en": "Term myometrium",
+    "ja": "分娩期子宮筋層"
+  },
+  {
+    "en": "Term placenta",
+    "ja": "分娩期胎盤"
+  },
+  {
+    "en": "Testis",
+    "ja": "精巣"
+  },
+  {
+    "en": "Testis carcinoma",
+    "ja": "精巣癌"
+  },
+  {
+    "en": "Thalamus",
+    "ja": "視床"
+  },
+  {
+    "en": "Thigh epidermis",
+    "ja": "大腿表皮"
+  },
+  {
+    "en": "Thymic epithelium",
+    "ja": "胸腺上皮"
+  },
+  {
+    "en": "Thymocyte",
+    "ja": "胸腺細胞"
+  },
+  {
+    "en": "Thymus",
+    "ja": "胸腺"
+  },
+  {
+    "en": "Thyroid",
+    "ja": "甲状腺"
+  },
+  {
+    "en": "Thyroid carcinoma",
+    "ja": "甲状腺癌"
+  },
+  {
+    "en": "Thyroid papillary carcinoma",
+    "ja": "甲状腺乳頭癌"
+  },
+  {
+    "en": "Thyroid tumor",
+    "ja": "甲状腺腫瘍"
+  },
+  {
+    "en": "Tongue",
+    "ja": "舌"
+  },
+  {
+    "en": "Tongue epithelium",
+    "ja": "舌上皮"
+  },
+  {
+    "en": "Tonsil",
+    "ja": "扁桃"
+  },
+  {
+    "en": "Tonsillar carcinoma",
+    "ja": "扁桃癌"
+  },
+  {
+    "en": "Tooth",
+    "ja": "歯"
+  },
+  {
+    "en": "Tooth bud",
+    "ja": "歯胚"
+  },
+  {
+    "en": "Trabecular meshwork",
+    "ja": "小柱網"
+  },
+  {
+    "en": "Trachea",
+    "ja": "気管"
+  },
+  {
+    "en": "Tracheal epithelium",
+    "ja": "気管上皮"
+  },
+  {
+    "en": "Tracheobronchial epithelium",
+    "ja": "気管支上皮"
+  },
+  {
+    "en": "Tracheobronchial mucosa",
+    "ja": "気管支粘膜"
+  },
+  {
+    "en": "Trophoblast",
+    "ja": "栄養膜細胞"
+  },
+  {
+    "en": "Umbilical artery",
+    "ja": "臍動脈"
+  },
+  {
+    "en": "Umbilical cord",
+    "ja": "臍帯"
+  },
+  {
+    "en": "Umbilical cord blood",
+    "ja": "臍帯血"
+  },
+  {
+    "en": "Umbilical smooth muscle",
+    "ja": "臍平滑筋"
+  },
+  {
+    "en": "Umbilical vein",
+    "ja": "臍静脈"
+  },
+  {
+    "en": "Umbilical vein endothelial cell",
+    "ja": "臍静脈内皮細胞"
+  },
+  {
+    "en": "Unclassified",
+    "ja": "分類不能"
+  },
+  {
+    "en": "Ureter",
+    "ja": "尿管"
+  },
+  {
+    "en": "Urinary bladder",
+    "ja": "膀胱"
+  },
+  {
+    "en": "Urinary bladder carcinoma",
+    "ja": "膀胱癌"
+  },
+  {
+    "en": "Urinary bladder smooth muscle",
+    "ja": "膀胱平滑筋"
+  },
+  {
+    "en": "Urinary bladder urothelium",
+    "ja": "膀胱上皮"
+  },
+  {
+    "en": "Urinary bladder wart",
+    "ja": "膀胱疣"
+  },
+  {
+    "en": "Urine",
+    "ja": "尿"
+  },
+  {
+    "en": "Urothelium",
+    "ja": "尿路上皮"
+  },
+  {
+    "en": "Uterine adenocarcinoma",
+    "ja": "子宮腺癌"
+  },
+  {
+    "en": "Uterine ectocervix",
+    "ja": "子宮外頸"
+  },
+  {
+    "en": "Uterine endothelium",
+    "ja": "子宮内皮"
+  },
+  {
+    "en": "Uterine leiomyoma",
+    "ja": "子宮平滑筋腫"
+  },
+  {
+    "en": "Uterus",
+    "ja": "子宮"
+  },
+  {
+    "en": "Vagina",
+    "ja": "膣"
+  },
+  {
+    "en": "Vascular endothelial cell",
+    "ja": "血管内皮細胞"
+  },
+  {
+    "en": "Vascular smooth muscle",
+    "ja": "血管平滑筋"
+  },
+  {
+    "en": "Vein",
+    "ja": "静脈"
+  },
+  {
+    "en": "Venom",
+    "ja": "毒液"
+  },
+  {
+    "en": "Venom gland",
+    "ja": "毒腺"
+  },
+  {
+    "en": "Vulva",
+    "ja": "外陰部"
+  },
+  {
+    "en": "White adipose tissue",
+    "ja": "白色脂肪組織"
+  },
+  {
+    "en": "Xylem",
+    "ja": "木部"
+  }
+]

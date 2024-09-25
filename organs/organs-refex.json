@@ -1,0 +1,142 @@
+[
+  {
+    "en": "Adipose",
+    "ja": "脂肪組織"
+  },
+  {
+    "en": "Adrenal gland",
+    "ja": "副腎"
+  },
+  {
+    "en": "Artery/Aorta",
+    "ja": "動脈/大動脈"
+  },
+  {
+    "en": "Bone marrow",
+    "ja": "骨髄"
+  },
+  {
+    "en": "Brain stem",
+    "ja": "脳幹"
+  },
+  {
+    "en": "Breast",
+    "ja": "乳房"
+  },
+  {
+    "en": "Cerebellum",
+    "ja": "小脳"
+  },
+  {
+    "en": "Cerebrum",
+    "ja": "大脳"
+  },
+  {
+    "en": "Colon",
+    "ja": "結腸"
+  },
+  {
+    "en": "Corpus callosum/Glia",
+    "ja": "脳梁/グリア"
+  },
+  {
+    "en": "Esophagus",
+    "ja": "食道"
+  },
+  {
+    "en": "Heart",
+    "ja": "心臓"
+  },
+  {
+    "en": "Intestine",
+    "ja": "腸"
+  },
+  {
+    "en": "Kidney",
+    "ja": "腎臓"
+  },
+  {
+    "en": "Liver/Hepato",
+    "ja": "肝臓"
+  },
+  {
+    "en": "Low specificity",
+    "ja": "低特異性"
+  },
+  {
+    "en": "Lung",
+    "ja": "肺"
+  },
+  {
+    "en": "Lymphnode",
+    "ja": "リンパ節"
+  },
+  {
+    "en": "Muscle",
+    "ja": "筋肉"
+  },
+  {
+    "en": "Ovary",
+    "ja": "卵巣"
+  },
+  {
+    "en": "Pancreas",
+    "ja": "膵臓"
+  },
+  {
+    "en": "Peripheral nerve",
+    "ja": "末梢神経"
+  },
+  {
+    "en": "Pituitary",
+    "ja": "下垂体"
+  },
+  {
+    "en": "Placenta",
+    "ja": "胎盤"
+  },
+  {
+    "en": "Prostate",
+    "ja": "前立腺"
+  },
+  {
+    "en": "Salivary",
+    "ja": "唾液腺"
+  },
+  {
+    "en": "Skin",
+    "ja": "皮膚"
+  },
+  {
+    "en": "Spine",
+    "ja": "脊椎"
+  },
+  {
+    "en": "Spleen",
+    "ja": "脾臓"
+  },
+  {
+    "en": "Stomach",
+    "ja": "胃"
+  },
+  {
+    "en": "Testis",
+    "ja": "精巣"
+  },
+  {
+    "en": "Thymus",
+    "ja": "胸腺"
+  },
+  {
+    "en": "Thyroid/Parathyroid",
+    "ja": "甲状腺/副甲状腺"
+  },
+  {
+    "en": "Uterus",
+    "ja": "子宮"
+  },
+  {
+    "en": "Vein",
+    "ja": "静脈"
+  }
+]

@@ -1,0 +1,56 @@
+English	日本語
+Adipose - Subcutaneous	脂肪組織 - 皮下
+Adipose - Visceral (Omentum)	脂肪組織 - 内臓（大網）
+Adrenal Gland	副腎
+Artery - Aorta	動脈 - 大動脈
+Artery - Coronary	動脈 - 冠動脈
+Artery - Tibial	動脈 - 脛骨動脈
+Bladder	膀胱
+Brain - Amygdala	脳 - 扁桃体
+Brain - Anterior cingulate cortex (BA24)	脳 - 前帯状皮質（BA24）
+Brain - Caudate (basal ganglia)	脳 - 尾状核（基底核）
+Brain - Cerebellar Hemisphere	脳 - 小脳半球
+Brain - Cerebellum	脳 - 小脳
+Brain - Cortex	脳 - 皮質
+Brain - Frontal Cortex (BA9)	脳 - 前頭皮質（BA9）
+Brain - Hippocampus	脳 - 海馬
+Brain - Hypothalamus	脳 - 視床下部
+Brain - Nucleus accumbens (basal ganglia)	脳 - 側坐核（基底核）
+Brain - Putamen (basal ganglia)	脳 - 被殻（基底核）
+Brain - Spinal cord (cervical c-1)	脳 - 脊髄（頸部 C-1）
+Brain - Substantia nigra	脳 - 黒質
+Breast - Mammary Tissue	乳房 - 乳腺組織
+Cells - Cultured fibroblasts	細胞 - 培養線維芽細胞
+Cells - EBV-transformed lymphocytes	細胞 - EBV変換リンパ球
+Cervix - Ectocervix	頸部 - 子宮頸膣部
+Cervix - Endocervix	頸部 - 子宮頸部
+Colon - Sigmoid	結腸 - S状結腸
+Colon - Transverse	結腸 - 横行結腸
+Esophagus - Gastroesophageal Junction	食道 - 胃食道接合部
+Esophagus - Mucosa	食道 - 粘膜
+Esophagus - Muscularis	食道 - 筋層
+Fallopian Tube	卵管
+Heart - Atrial Appendage	心臓 - 心耳
+Heart - Left Ventricle	心臓 - 左心室
+Kidney - Cortex	腎臓 - 皮質
+Kidney - Medulla	腎臓 - 髄質
+Liver	肝臓
+Low specificity	低特異性
+Lung	肺
+Minor Salivary Gland	小唾液腺
+Muscle - Skeletal	筋肉 - 骨格筋
+Nerve - Tibial	神経 - 脛骨神経
+Ovary	卵巣
+Pancreas	膵臓
+Pituitary	下垂体
+Prostate	前立腺
+Skin - Not Sun Exposed (Suprapubic)	皮膚 - 非日焼け（恥骨上部）
+Skin - Sun Exposed (Lower leg)	皮膚 - 日焼け（下腿）
+Small Intestine - Terminal Ileum	小腸 - 回腸末端
+Spleen	脾臓
+Stomach	胃
+Testis	精巣
+Thyroid	甲状腺
+Uterus	子宮
+Vagina	膣
+Whole Blood	全血

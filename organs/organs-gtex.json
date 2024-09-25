@@ -1,0 +1,222 @@
+[
+  {
+    "en": "Adipose - Subcutaneous",
+    "ja": "脂肪組織 - 皮下"
+  },
+  {
+    "en": "Adipose - Visceral (Omentum)",
+    "ja": "脂肪組織 - 内臓（大網）"
+  },
+  {
+    "en": "Adrenal Gland",
+    "ja": "副腎"
+  },
+  {
+    "en": "Artery - Aorta",
+    "ja": "動脈 - 大動脈"
+  },
+  {
+    "en": "Artery - Coronary",
+    "ja": "動脈 - 冠動脈"
+  },
+  {
+    "en": "Artery - Tibial",
+    "ja": "動脈 - 脛骨動脈"
+  },
+  {
+    "en": "Bladder",
+    "ja": "膀胱"
+  },
+  {
+    "en": "Brain - Amygdala",
+    "ja": "脳 - 扁桃体"
+  },
+  {
+    "en": "Brain - Anterior cingulate cortex (BA24)",
+    "ja": "脳 - 前帯状皮質（BA24）"
+  },
+  {
+    "en": "Brain - Caudate (basal ganglia)",
+    "ja": "脳 - 尾状核（基底核）"
+  },
+  {
+    "en": "Brain - Cerebellar Hemisphere",
+    "ja": "脳 - 小脳半球"
+  },
+  {
+    "en": "Brain - Cerebellum",
+    "ja": "脳 - 小脳"
+  },
+  {
+    "en": "Brain - Cortex",
+    "ja": "脳 - 皮質"
+  },
+  {
+    "en": "Brain - Frontal Cortex (BA9)",
+    "ja": "脳 - 前頭皮質（BA9）"
+  },
+  {
+    "en": "Brain - Hippocampus",
+    "ja": "脳 - 海馬"
+  },
+  {
+    "en": "Brain - Hypothalamus",
+    "ja": "脳 - 視床下部"
+  },
+  {
+    "en": "Brain - Nucleus accumbens (basal ganglia)",
+    "ja": "脳 - 側坐核（基底核）"
+  },
+  {
+    "en": "Brain - Putamen (basal ganglia)",
+    "ja": "脳 - 被殻（基底核）"
+  },
+  {
+    "en": "Brain - Spinal cord (cervical c-1)",
+    "ja": "脳 - 脊髄（頸部 C-1）"
+  },
+  {
+    "en": "Brain - Substantia nigra",
+    "ja": "脳 - 黒質"
+  },
+  {
+    "en": "Breast - Mammary Tissue",
+    "ja": "乳房 - 乳腺組織"
+  },
+  {
+    "en": "Cells - Cultured fibroblasts",
+    "ja": "細胞 - 培養線維芽細胞"
+  },
+  {
+    "en": "Cells - EBV-transformed lymphocytes",
+    "ja": "細胞 - EBV変換リンパ球"
+  },
+  {
+    "en": "Cervix - Ectocervix",
+    "ja": "頸部 - 子宮頸膣部"
+  },
+  {
+    "en": "Cervix - Endocervix",
+    "ja": "頸部 - 子宮頸部"
+  },
+  {
+    "en": "Colon - Sigmoid",
+    "ja": "結腸 - S状結腸"
+  },
+  {
+    "en": "Colon - Transverse",
+    "ja": "結腸 - 横行結腸"
+  },
+  {
+    "en": "Esophagus - Gastroesophageal Junction",
+    "ja": "食道 - 胃食道接合部"
+  },
+  {
+    "en": "Esophagus - Mucosa",
+    "ja": "食道 - 粘膜"
+  },
+  {
+    "en": "Esophagus - Muscularis",
+    "ja": "食道 - 筋層"
+  },
+  {
+    "en": "Fallopian Tube",
+    "ja": "卵管"
+  },
+  {
+    "en": "Heart - Atrial Appendage",
+    "ja": "心臓 - 心耳"
+  },
+  {
+    "en": "Heart - Left Ventricle",
+    "ja": "心臓 - 左心室"
+  },
+  {
+    "en": "Kidney - Cortex",
+    "ja": "腎臓 - 皮質"
+  },
+  {
+    "en": "Kidney - Medulla",
+    "ja": "腎臓 - 髄質"
+  },
+  {
+    "en": "Liver",
+    "ja": "肝臓"
+  },
+  {
+    "en": "Low specificity",
+    "ja": "低特異性"
+  },
+  {
+    "en": "Lung",
+    "ja": "肺"
+  },
+  {
+    "en": "Minor Salivary Gland",
+    "ja": "小唾液腺"
+  },
+  {
+    "en": "Muscle - Skeletal",
+    "ja": "筋肉 - 骨格筋"
+  },
+  {
+    "en": "Nerve - Tibial",
+    "ja": "神経 - 脛骨神経"
+  },
+  {
+    "en": "Ovary",
+    "ja": "卵巣"
+  },
+  {
+    "en": "Pancreas",
+    "ja": "膵臓"
+  },
+  {
+    "en": "Pituitary",
+    "ja": "下垂体"
+  },
+  {
+    "en": "Prostate",
+    "ja": "前立腺"
+  },
+  {
+    "en": "Skin - Not Sun Exposed (Suprapubic)",
+    "ja": "皮膚 - 非日焼け（恥骨上部）"
+  },
+  {
+    "en": "Skin - Sun Exposed (Lower leg)",
+    "ja": "皮膚 - 日焼け（下腿）"
+  },
+  {
+    "en": "Small Intestine - Terminal Ileum",
+    "ja": "小腸 - 回腸末端"
+  },
+  {
+    "en": "Spleen",
+    "ja": "脾臓"
+  },
+  {
+    "en": "Stomach",
+    "ja": "胃"
+  },
+  {
+    "en": "Testis",
+    "ja": "精巣"
+  },
+  {
+    "en": "Thyroid",
+    "ja": "甲状腺"
+  },
+  {
+    "en": "Uterus",
+    "ja": "子宮"
+  },
+  {
+    "en": "Vagina",
+    "ja": "膣"
+  },
+  {
+    "en": "Whole Blood",
+    "ja": "全血"
+  }
+]
