@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #
-# bin/mart_export2json_ext.rb ensembl/mart_export.txt > genedots.json
+# bin/mart_export2json_ext.rb ensembl/mart_export.txt | jq . > genedots.json
 #
 
 require 'json'
@@ -51,6 +51,28 @@ File.open("summary/pathogenic.tsv").each do |line|
   end
 end
 
+refex_en = {}
+refex_ja = {}
+
+File.open("summary/refex.tsv").each do |line|
+  ensg, en, ja = line.strip.split("\t")
+  refex_en[ensg] ||= []
+  refex_en[ensg] << en
+  refex_ja[ensg] ||= []
+  refex_ja[ensg] << ja
+end
+
+gtex_en = {}
+gtex_ja = {}
+
+File.open("summary/gtex.tsv").each do |line|
+  ensg, en, ja = line.strip.split("\t")
+  gtex_en[ensg] ||= []
+  gtex_en[ensg] << en
+  gtex_ja[ensg] ||= []
+  gtex_ja[ensg] << ja
+end
+
 
 # ["Gene stable ID", "Gene start (bp)", "Gene end (bp)", "Strand", "Karyotype band", "Chromosome/scaffold name", "HGNC ID", "HGNC symbol", "UniProtKB/Swiss-Prot ID"]
 
@@ -87,6 +109,12 @@ ARGF.each do |line|
     :paralog => paralogs[ensg].to_i,
     :ppi => ppi[ensg].to_i,
     :clinvar => variants[ensg].to_i,
+    :refex => (refex_en[ensg] || []).size,
+    :refex_en => refex_en[ensg] || [],
+    :refex_ja => refex_ja[ensg] || [],
+    :gtex => (gtex_en[ensg] || []).size,
+    :gtex_en => gtex_en[ensg] || [],
+    :gtex_ja => gtex_ja[ensg] || [],
   }
   if pathogenic[ensg]
     hash[:pathogenic] = true
