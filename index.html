@@ -15,11 +15,22 @@ import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
 
 const data = {
   genes: await d3.json("./genedots.json"),
-  position_max: { x: 250000000, y: 25 },
-  homolog_max: { x: 7000, y: 22 },
+  domain: {
+    position: { x: 250000000, y: 25 },
+    clinvar: { x: 20000, y: 700 },
+    disease: { x: 20000, y: 50 },
+    ppi: { x: 20000, y: 850 },
+    paralog: { x: 20000, y: 20 },
+    homolog: { x: 20000, y: 22 }
+  },
   width: 2000,
   height: 1000,
-  margin: { left: 20, right: 20, top: 20, bottom: 20 }
+  margin: { left: 20, right: 20, top: 20, bottom: 20 },
+  palette: [
+    "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f",
+    "#bcbd22", "#17becf", "#393b79", "#637939", "#8c6d31", "#843c39", "#ad494a", "#e7ba52",
+    "#8c564b", "#ff9896", "#c5b0d5", "#c49c94", "#f7b6d2", "#dbdb8d", "#9edae5", "#c7c7c7"
+  ]
 }
 
 const canvas = {
@@ -31,10 +42,20 @@ const canvas = {
 
 const tool = {
   scale_x: {
-    position: d3.scaleLinear().range([canvas.left, canvas.right]).domain([1, data.position_max.x])
+    position: d3.scaleLinear().range([canvas.left, canvas.right]).domain([1, data.domain.position.x]),
+    clinvar: d3.scaleLinear().range([canvas.left, canvas.right]).domain([1, data.domain.clinvar.x]),
+    disease: d3.scaleLinear().range([canvas.left, canvas.right]).domain([1, data.domain.disease.x]),
+    ppi: d3.scaleLinear().range([canvas.left, canvas.right]).domain([1, data.domain.ppi.x]),
+    paralog: d3.scaleLinear().range([canvas.left, canvas.right]).domain([1, data.domain.paralog.x]),
+    homolog: d3.scaleLinear().range([canvas.left, canvas.right]).domain([1, data.domain.homolog.x])
   },
   scale_y: {
-    position: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.position_max.y])
+    position: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.position.y]),
+    clinvar: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.clinvar.y]),
+    disease: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.disease.y]),
+    ppi: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.ppi.y]),
+    paralog: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.paralog.y]),
+    homolog: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.homolog.y])
   },
   scale_z: {
     linear: d3.scaleLinear().range([1, 10]).domain(d3.extent(data.genes, d => d.len)),
@@ -43,11 +64,11 @@ const tool = {
     disease: d3.scaleLinear().range([1, 20]).domain(d3.extent(data.genes, d => d.disease)),
     ppi: d3.scaleLinear().range([1, 20]).domain(d3.extent(data.genes, d => d.ppi)),
     paralog: d3.scaleLinear().range([1, 10]).domain(d3.extent(data.genes, d => d.paralog)),
-    homolog: d3.scaleLinear().range([1, 8]).domain(d3.extent(data.genes, d => d.homolog))
+    homolog: d3.scaleLinear().range([1, 5]).domain(d3.extent(data.genes, d => d.homolog))
   },
-  palette: d3.scaleOrdinal(d3.schemeTableau10)
+//  palette: d3.scaleOrdinal(d3.schemeTableau10)
+  palette: d3.scaleOrdinal(data.palette)
 }
-//tool.scale_z = tool.scale_z_lin
 
 const svg = d3.select("svg#canvas")
   .attr("width", data.width)
@@ -73,7 +94,9 @@ svg.append("g")
   .attr("cx", d => tool.scale_x.position(d.pos))
   .attr("cy", d => tool.scale_y.position(d.chr_sort))
   .attr("r", d => tool.scale_z.linear(d.len))
-  .style("fill", d => tool.palette(d.band))
+//  .style("fill", d => tool.palette(d.band))
+  .style("fill", d => tool.palette(d.chr_sort))
+  .style("opacity", 0.9)
   .on("mouseover", d => infobox(d.target.__data__))
   .on("click", d => console.log(d.target.__data__))
 
@@ -82,6 +105,7 @@ d3.select("#toggle_color").on("click", toggle_color)
 d3.select("#toggle_size").on("click", toggle_size)
 d3.select("#toggle_scale").on("click", toggle_scale)
 */
+
 /*
 d3.select("#toggle_clinvar").on("click", toggle("clinvar"))
 d3.select("#toggle_disease").on("click", toggle("disease"))
@@ -89,6 +113,7 @@ d3.select("#toggle_ppi").on("click", toggle("ppi"))
 d3.select("#toggle_homolog").on("click", toggle("homolog"))
 d3.select("#toggle_paralog").on("click", toggle("paralog"))
 */
+
 d3.select("#toggle_clinvar").on("click", toggle_clinvar)
 d3.select("#toggle_disease").on("click", toggle_disease)
 d3.select("#toggle_ppi").on("click", toggle_ppi)
@@ -160,42 +185,32 @@ function toggle_default(attr) {
   let graphic = d3.select("svg#canvas").select("g")
   let circles = d3.selectAll("circle")
   circles.attr("r", d => tool.scale_z.linear(d.len))
-  circles.style("fill", d => tool.palette(d.band))
-  circles.style("opacity", 1)
+//  circles.style("fill", d => tool.palette(d.band))
+  circles.style("fill", d => tool.palette(d.chr_sort))
+//  circles.style("opacity", 0.9)
   graphic.attr("toggle_" + attr, "default")
+  circles.transition()
+    .duration(1000)
+//    .attr("cx", d => tool.scale_x.position(d.pos))
+    .attr("cy", d => tool.scale_y.position(d.chr_sort))
 }
 
 function toggle_activate(attr) {
   let graphic = d3.select("svg#canvas").select("g")
   let circles = d3.selectAll("circle")
+  let scale_y = tool.scale_y[attr]
   let scale_z = tool.scale_z[attr]
-  circles.attr("r", d => scale_z(d[attr]))
   if (attr == "clinvar") {
     circles.style("fill", d => d.pathogenic ? "#d1605e" : "#5878a3")
+  } else {
+    circles.transition()
+      .duration(1000)
+      .attr("cy", d => scale_y(d[attr]))
+      .attr("r", d => scale_z(d[attr]))
   }
-  circles.style("opacity", 0.7)
+//  circles.style("opacity", 0.5)
   graphic.attr("toggle_" + attr, "activated")
 }
-
-/*
-function toggle_clinvar() {
-  let graphic = d3.select("svg#canvas").select("g")
-  let circles = d3.selectAll("circle")
-  switch ( graphic.attr("toggle_clinvar") ) {
-    case "length":
-      circles.attr("r", d => tool.scale_z.clinvar(d.clinvar))
-      circles.style("opacity", 0.9)
-      graphic.attr("toggle_clinvar", "clinvar")
-      break
-    case "clinvar":
-      circles.attr("r", d => tool.scale_z.linear(d.len))
-      circles.style("fill", d => tool.palette(d.band))
-      circles.style("opacity", 1)
-      graphic.attr("toggle_clinvar", "length")
-      break
-  }
-}
-*/
 
 /*
 function toggle_color() {
@@ -274,31 +289,6 @@ body {
 .reverse {
   transform: translateY(5px);
 }
-
-/*
-.forward {
-  animation: forward 3s linear;
-}
-.reverse {
-  animation: reverse 3s linear;
-}
-@keyframes forward {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(-5px);
-  }
-}
-@keyframes reverse {
-  from {
-    transform: translateY(0px);
-  }
-  to {
-    transform: translateY(5px);
-  }
-}
-*/
 </style>
 
   </head>
@@ -330,6 +320,7 @@ body {
 	<button class="btn btn-warning" type="button" id="toggle_color">Color by strand/band</button>
 	<button class="btn btn-success" type="button" id="toggle_size">Size by length/const</button>
 	<button class="btn btn-primary" type="button" id="toggle_scale">Scale by linear/log</button>
+	<button class="btn btn-dark"    type="button" id="toggle_position">Position</button>
 -->
 	<button class="btn btn-warning" type="button" id="toggle_clinvar">ClinVar</button>
 	<button class="btn btn-danger"  type="button" id="toggle_disease">Disease</button>
