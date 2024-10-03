@@ -55,6 +55,7 @@ const tool = {
     clinvar: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.clinvar.y]),
     disease: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.disease.y]),
     ppi: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.ppi.y]),
+//    ppi: d3.scaleLog().range([canvas.top, canvas.bottom]).domain([1, data.domain.ppi.y]),
     paralog: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.paralog.y]),
     homolog: d3.scaleLinear().range([canvas.top, canvas.bottom]).domain([1, data.domain.homolog.y])
   },
@@ -178,6 +179,9 @@ function toggle(attr) {
 function toggle_default(attr) {
   let graphic = d3.select("svg#canvas").select("g")
   let circles = d3.selectAll("circle")
+  circles
+    .classed("forward", d => d.str > 0)
+    .classed("reverse", d => d.str < 0)
   circles.transition()
     .duration(1000)
 //    .style("fill", d => tool.palette(d.band))
@@ -199,6 +203,9 @@ function toggle_activate(attr) {
       .style("fill", d => d.pathogenic ? "#d1605e" : "#5878a3")
       .attr("r", d => scale_z(d[attr]))
   } else {
+    circles
+      .classed("forward", false)
+      .classed("reverse", false)
     circles.transition()
       .duration(1000)
       .attr("cy", d => scale_y(d[attr]))
