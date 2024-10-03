@@ -30,7 +30,8 @@ const data = {
     "#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f",
     "#bcbd22", "#17becf", "#393b79", "#637939", "#8c6d31", "#843c39", "#ad494a", "#e7ba52",
     "#8c564b", "#ff9896", "#c5b0d5", "#c49c94", "#f7b6d2", "#dbdb8d", "#9edae5", "#c7c7c7"
-  ]
+  ],
+  opacity: 0.9
 }
 
 const canvas = {
@@ -75,11 +76,6 @@ const svg = d3.select("svg#canvas")
   .attr("height", data.height)
 
 svg.append("g")
-/*
-  .attr("toggle_color", "strand")
-  .attr("toggle_size", "length")
-  .attr("toggle_scale", "linear")
-*/
   .attr("toggle_clinvar", "default")
   .attr("toggle_disease", "default")
   .attr("toggle_ppi", "default")
@@ -94,17 +90,12 @@ svg.append("g")
   .attr("cx", d => tool.scale_x.position(d.pos))
   .attr("cy", d => tool.scale_y.position(d.chr_sort))
   .attr("r", d => tool.scale_z.linear(d.len))
+//  .style("fill", d => tool.palette(d.str))
 //  .style("fill", d => tool.palette(d.band))
   .style("fill", d => tool.palette(d.chr_sort))
-  .style("opacity", 0.9)
+  .style("opacity", data.opacity)
   .on("mouseover", d => infobox(d.target.__data__))
   .on("click", d => console.log(d.target.__data__))
-
-/*
-d3.select("#toggle_color").on("click", toggle_color)
-d3.select("#toggle_size").on("click", toggle_size)
-d3.select("#toggle_scale").on("click", toggle_scale)
-*/
 
 /*
 d3.select("#toggle_clinvar").on("click", toggle("clinvar"))
@@ -127,26 +118,29 @@ d3.select("#infobox_up").on("click", d => window.open("http://identifiers.org/un
 d3.select("#search_hgnc").on("input", search_hgnc)
 
 function search_hgnc() {
-  let hgnc = d3.select("#search_hgnc").property("value");
-  if (hgnc.length >= 2) {
-    console.log(hgnc)
-    d3.selectAll("circle")
-      .filter(function() {
-        return ! d3.select(this).classed("highlight")
-      })
-      .style("opacity", 0.3)
-      .filter(function() {
-        return d3.select(this).classed(hgnc)
-      })
-      .style("opacity", 1)
-      .classed("highlight", true)
-  }
+  d3.selectAll("circle").classed("highlight", false).style("opacity", data.opacity)
+  let hgncs = d3.select("#search_hgnc").property("value").split(/,\s*/)
+  hgncs.forEach(hgnc => {
+    if (hgnc.length >= 2) {
+      console.log(hgnc)
+      d3.selectAll("circle")
+        .filter(function() {
+          return ! d3.select(this).classed("highlight")
+        })
+        .style("opacity", 0.3)
+        .filter(function() {
+          return d3.select(this).classed(hgnc)
+        })
+        .style("opacity", data.opacity)
+        .classed("highlight", true)
+    }
+  })
 }
 
 function infobox(d) {
   d3.select("#infobox_hgnc").attr("hgnc_id", d.hgnc_id)
   d3.select("#info_gene").text(d.hgnc)
-  d3.select("#info_hgnc").text(d.hgnc_id)
+//  d3.select("#info_hgnc").text(d.hgnc_id)
   d3.select("#info_chr").text(d.chr)
   d3.select("#info_pos").text(d.pos)
   d3.select("#info_len").text(d.len)
@@ -184,15 +178,14 @@ function toggle(attr) {
 function toggle_default(attr) {
   let graphic = d3.select("svg#canvas").select("g")
   let circles = d3.selectAll("circle")
-  circles.attr("r", d => tool.scale_z.linear(d.len))
-//  circles.style("fill", d => tool.palette(d.band))
-  circles.style("fill", d => tool.palette(d.chr_sort))
-//  circles.style("opacity", 0.9)
-  graphic.attr("toggle_" + attr, "default")
   circles.transition()
     .duration(1000)
+//    .style("fill", d => tool.palette(d.band))
+    .style("fill", d => tool.palette(d.chr_sort))
+    .attr("r", d => tool.scale_z.linear(d.len))
 //    .attr("cx", d => tool.scale_x.position(d.pos))
     .attr("cy", d => tool.scale_y.position(d.chr_sort))
+  graphic.attr("toggle_" + attr, "default")
 }
 
 function toggle_activate(attr) {
@@ -201,69 +194,18 @@ function toggle_activate(attr) {
   let scale_y = tool.scale_y[attr]
   let scale_z = tool.scale_z[attr]
   if (attr == "clinvar") {
-    circles.style("fill", d => d.pathogenic ? "#d1605e" : "#5878a3")
+    circles.transition()
+      .duration(1000)
+      .style("fill", d => d.pathogenic ? "#d1605e" : "#5878a3")
+      .attr("r", d => scale_z(d[attr]))
   } else {
     circles.transition()
       .duration(1000)
       .attr("cy", d => scale_y(d[attr]))
       .attr("r", d => scale_z(d[attr]))
   }
-//  circles.style("opacity", 0.5)
   graphic.attr("toggle_" + attr, "activated")
 }
-
-/*
-function toggle_color() {
-  let graphic = d3.select("svg#canvas").select("g")
-  let circles = d3.selectAll("circle")
-  switch ( graphic.attr("toggle_color") ) {
-    case "strand":
-      circles.style("fill", d => tool.palette(d.band))
-      graphic.attr("toggle_color", "band")
-      break
-    case "band":
-      circles.style("fill", d => tool.palette(d.str))
-      graphic.attr("toggle_color", "strand")
-      break
-  }
-}
-
-function toggle_size() {
-  let graphic = d3.select("svg#canvas").select("g")
-  let circles = d3.selectAll("circle")
-  switch ( graphic.attr("toggle_size") ) {
-    case "length":
-      circles.attr("r", 5)
-      circles.style("opacity", 0.7)
-      graphic.attr("toggle_size", "const")
-      break
-    case "const":
-      circles.attr("r", d => tool.scale_z(d.len))
-      circles.style("opacity", 1)
-      graphic.attr("toggle_size", "length")
-      break
-  }
-}
-
-function toggle_scale() {
-  let graphic = d3.select("svg#canvas").select("g")
-  let circles = d3.selectAll("circle")
-  switch ( graphic.attr("toggle_scale") ) {
-    case "linear":
-      tool.scale_z = tool.scale_z_log
-      circles.attr("r", d => tool.scale_z(d.len))
-      circles.style("opacity", 0.7)
-      graphic.attr("toggle_scale", "log")
-      break
-    case "log":
-      tool.scale_z = tool.scale_z_lin
-      circles.attr("r", d => tool.scale_z(d.len))
-      circles.style("opacity", 1)
-      graphic.attr("toggle_scale", "linear")
-      break
-  }
-}
-*/
 </script>
 
 <style>
@@ -317,9 +259,6 @@ body {
           <span class="" id="info_up">UniProt</span>
 	</button>
 <!--
-	<button class="btn btn-warning" type="button" id="toggle_color">Color by strand/band</button>
-	<button class="btn btn-success" type="button" id="toggle_size">Size by length/const</button>
-	<button class="btn btn-primary" type="button" id="toggle_scale">Scale by linear/log</button>
 	<button class="btn btn-dark"    type="button" id="toggle_position">Position</button>
 -->
 	<button class="btn btn-warning" type="button" id="toggle_clinvar">ClinVar</button>
